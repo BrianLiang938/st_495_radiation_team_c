@@ -1,0 +1,3138 @@
+ID,CATLEVEL,DESCRIPTION
+0,1,DEFAULT
+0,2,DEFAULT
+0,3,Custom Attribute
+1,1,Treatment Planning: Data Entry
+10,1,Radiation Safety
+10000,1,Registration
+10001,2,Name/IDs/Personal
+10002,3,Custom attribute SL 1 (Most Severe)
+10003,3,Custom Attribute SL 2
+10004,3,Custom Attribute SL 3
+10005,3,Custom Attribute SL 4
+10006,3,Custom attribute SL 5 (Least Severe)
+10007,3,Full name incorr./miss
+10008,3,Full name incorr./miss.
+10009,3,Birthy date incorr./miss.
+10010,3,Age incorr./miss.
+10011,3,Medical record no. incorr./miss.
+10012,2,Gender incorr./miss.
+10013,3,Custom attribute SL 1 (Most Severe)
+10014,3,Custom Attribute SL 2
+10015,3,Custom Attribute SL 3
+10016,3,Custom Attribute SL 4
+10017,3,Custom attribute SL 5 (Least Severe)
+10018,3,Gender incorr./miss.
+10019,3,SS no. incorr./miss.
+10020,3,Duplicate patient entry
+10021,3,Birth date incorr./miss.
+10022,3,Primary payer incorr./miss.
+10023,2,Demographics
+10024,3,Custom attribute SL 1 (Most Severe)
+10025,3,Custom Attribute SL 2
+10026,3,Custom Attribute SL 3
+10027,3,Custom Attribute SL 4
+10028,3,Custom attribute SL 5 (Least Severe)
+10029,3,Medical record no. incorr./miss.
+10030,3,RO record no. incorr./miss.
+10031,3,Birth date incorr./miss.
+10032,3,Age incorr./miss.
+10033,3,Birth place incorr./miss.
+10034,3,Gender incorr./miss.
+10035,3,SS no. incorr./miss.
+10036,3,Race incorr./miss.
+10037,3,Religion incorr./miss.
+10038,3,Martial status incorr./miss.
+10039,3,Children incorr./miss.
+10040,3,Language incorr./miss.
+10041,2,Severity Level 1
+10042,3,Custom attribute SL 1 (Most Severe)
+10043,4,ggg
+10044,3,Birth date incorr./miss.
+10045,3,Age incorr./miss.
+10046,3,Medical record no. incorr./miss.
+10047,3,Gender incorr./miss.
+10048,3,SS no. incorr./miss.
+10049,3,Duplicate patient entry
+10050,3,Primary payer incorr./miss.
+10051,3,Custom attribute SL 1 (Most Severe)
+10052,3,Custom attribute SL 2
+10053,3,Custom attribute SL 3
+10054,3,Custom attribute SL 4
+10055,3,Custom attribute SL 5 (Least Severe)
+10056,3,RO record no. incorr./miss.
+10057,3,Birth date incorr./miss.
+10058,3,Age incorr./miss.
+10059,3,Birth place incorr./miss.
+10060,3,Gender incorr./miss.
+10061,3,SS no. incorr./miss.
+10062,3,Race incorr./miss.
+10063,3,Religion incorr./miss.
+10064,3,Marital status incorr./miss.
+10065,3,Children incorr./miss.
+10066,3,Language incorr./miss.
+10067,3,Custom attribute SL 1 (Most Severe)
+10068,3,Custom attribute SL 2
+10069,3,Custom attribute SL 3
+10070,3,Custom attribute SL 4
+10071,3,Custom attribute SL 5 (Least Severe)
+10072,1,Admission
+10073,2,Admission
+10074,3,Diagnosis incorr./miss.
+10075,3,Histology incorr./miss.
+10076,3,H/P grade incorr./miss.
+10077,3,TNM stage incorr./miss.
+10078,3,Treatment intent incorr./miss.
+10079,3,Surgery incorr./miss.
+10080,3,Chemotherapy incorr./miss.
+10081,3,Previous RT incorr./miss.
+10082,3,Special precautions incorr./miss.
+10083,3,Admit date/time incorr./miss.
+10084,3,Discharge date incorr./miss.
+10085,3,Expiration date incorr./miss.
+10086,3,Transportation incorr./miss.
+10087,3,In/outpatient incorr./miss.
+10088,3,Nursing unit incorr./miss.
+10089,3,Nurse incorr./miss.
+10090,3,Informed consent not signed/miss.
+10091,3,Custom attribute SL 1 (Most Severe)
+10092,3,Custom attribute SL 2
+10093,3,Custom attribute SL 3
+10094,3,Custom attribute SL 4
+10095,3,Custom attribute SL 5 (Least Severe)
+10096,2,Attending
+10097,3,Department incorr./miss.
+10098,3,Attending physician incorr./miss.
+10099,3,Attending resident incorr./miss.
+1010,3,Treatment site
+10100,3,Custom attribute SL 1 (Most Severe)
+10101,3,Custom attribute SL 2
+10102,3,Custom attribute SL 3
+10103,3,Custom attribute SL 4
+10104,3,Custom attribute SL 5 (Least Severe)
+10105,2,Referral
+10106,3,Primary physician incorr./miss.
+10107,3,Referring physician incorr./miss.
+10108,3,Referring facility incorr./miss.
+10109,3,Referred to facility incorr./miss.
+1011,3,Plan identification
+10110,3,Custom attribute SL 1 (Most Severe)
+10111,3,Custom attribute SL 2
+10112,3,Custom attribute SL 3
+10113,3,Custom attribute SL 4
+10114,3,Custom attribute SL 5 (Least Severe)
+10115,2,Home/Work
+10116,3,Home address incorr./miss.
+10117,3,Home phone incorr./miss.
+10118,3,Work address incorr./miss.
+10119,3,Work phone incorr./miss.
+1012,3,Field names and numbers
+10120,3,Custom attribute SL 1 (Most Severe)
+10121,3,Custom attribute SL 2
+10122,3,Custom attribute SL 3
+10123,3,Custom attribute SL 4
+10124,3,Custom attribute SL 5 (Least Severe)
+10125,2,Relative
+10126,3,Relationship incorr./miss.
+10127,3,Full name incorr./miss.
+10128,3,Home address incorr./miss.
+10129,3,Home phone incorr./miss.
+10130,3,Work address incorr./miss.
+10131,3,Work phone incorr./miss.
+10132,3,Custom attribute SL 1 (Most Severe)
+10133,3,Custom attribute SL 2
+10134,3,Custom attribute SL 3
+10135,3,Custom attribute SL 4
+10136,3,Custom attribute SL 5 (Least Severe)
+10137,2,Emergency
+10138,3,Relationship incorr./miss.
+10139,3,Full name incorr./miss.
+10140,3,Address incorr./miss.
+10141,3,Home phone incorr./miss.
+10142,3,Work phone incorr./miss.
+10143,3,Custom attribute SL 1 (Most Severe)
+10144,3,Custom attribute SL 2
+10145,3,Custom attribute SL 3
+10146,3,Custom attribute SL 4
+10147,3,Custom attribute SL 5 (Least Severe)
+10148,2,Home Care
+10149,3,Facility/hospice incorr./miss.
+10150,3,Phone incorr./miss.
+10151,3,Contact nurse incorr./miss.
+10152,3,Contact social worker incorr./miss.
+10153,3,Patient Self Determination Act (PSDA) info not given
+10154,3,"PSDA info given, date not recorded"
+10155,3,Custom attribute SL 1 (Most Severe)
+10156,3,Custom attribute SL 2
+10157,3,Custom attribute SL 3
+10158,3,Custom attribute SL 4
+10159,3,Custom attribute SL 5 (Least Severe)
+10160,1,Scheduling
+10161,2,Appointments
+10162,3,Wrong patient given appointment
+10163,3,Appointment not scheduled
+10164,3,Conflict of appointment dates/times
+10165,3,Appointment activity incorr./miss.
+10166,3,Appointment dates incorr./miss.
+10167,3,Appointment times incorr./miss.
+10168,3,No. of appointments incorr./miss.
+10169,3,Appointment duration(s) incorr./miss.
+10170,3,Assigning staff incorr./miss.
+10171,3,Appointment location incorr./miss.
+10172,3,Custom attribute SL 1 (Most Severe)
+10173,3,Custom attribute SL 2
+10174,3,Custom attribute SL 3
+10175,3,Custom attribute SL 4
+10176,3,Custom attribute SL 5 (Least Severe)
+10177,1,Radiographic Simulation
+10178,2,Patient Setup
+10179,3,Sim field no. incorr./miss.
+10180,3,Sim field name incorr./miss.
+10181,3,Machine incorr./miss.
+10182,3,Patient position not isocentric to midline (SAD)
+10183,3,Patient position not to specified SSD
+10184,3,AP SSD miss.
+10185,3,PA SSD miss.
+10186,3,RL/Medial SSD miss.
+10187,3,LL/Medial SSD miss.
+10188,3,Calc. point SSD miss.
+10189,3,SFD miss./incomplete
+10190,3,Table vertical does not agree w/SSD
+10191,3,SSD read incorrectly
+10192,3,Separation does not agree w/SSD
+10193,3,Separation miss.
+10194,3,Incorrect contour
+10195,3,R&V: Failure to capture all Tx fields
+10196,3,R&V: Failure to capture correct Tx fields
+10197,3,R&V: Failure to capture setup fields
+10198,3,Setup instructions incorr.
+10199,3,Setup instructions miss./incomplete
+10200,3,Custom attribute SL 1 (Most Severe)
+10201,3,Custom attribute SL 2
+10202,3,Custom attribute SL 3
+10203,3,Custom attribute SL 4
+10204,3,Custom attribute SL 5 (Least Severe)
+10205,2,Setup Photos/Diagrams
+10206,3,Face ID photo incorr./miss.
+10207,3,Setup field photos incorr./miss.
+10208,3,Setup field photos not labeled
+10209,3,Setup field photos not scanned
+10210,3,Setup field photos not downloaded
+10211,3,Wrong setup field photos scanned
+10212,3,Setup field diagrams incorr./miss.
+10213,3,Setup field diagrams not labeled
+10214,3,Setup field diagrams not scanned
+10215,3,Setup field diagrams not downloaded
+10216,3,Wrong setup field diagrams scanned
+10217,3,Custom attribute SL 1 (Most Severe)
+10218,3,Custom attribute SL 2
+10219,3,Custom attribute SL 3
+10220,3,Custom attribute SL 4
+10221,3,Custom attribute SL 5 (Least Severe)
+10222,2,Films
+10223,3,Patient name incorr./miss.
+10224,3,RO record no. incorr./miss.
+10225,3,Date incorr./miss.
+10226,3,Sim field no. incorr./miss.
+10227,3,Sim field name incorr./miss.
+10228,3,Labeling of anatomical orientation incorr.
+10229,3,"kVp, mA, secs. not documented"
+10230,3,"Poor technique factors (kVp, mA., secs.)"
+10231,3,X&Y plane blade settings incorr.
+10232,3,Patient position not flat/straight
+10233,3,Film(s) not signed/dated by MD
+10234,3,Scanned DRRs not approved by MD
+10235,3,Custom attribute SL 1 (Most Severe)
+10236,3,Custom attribute SL 2
+10237,3,Custom attribute SL 3
+10238,3,Custom attribute SL 4
+10239,3,Custom attribute SL 5 (Least Severe)
+10240,1,CT Simulation
+10241,2,Patient Scan
+10242,3,Patient position not flat/straight
+10243,3,Patient position - protocol vs table incorr.
+10244,3,Patient registration data incorr./miss.
+10245,3,Scan protocol for region incorr.
+10246,3,"Series (scout, axial, etc.) incorr."
+10247,3,FOV  incorr.
+10248,3,"Patient centering (AP/PA, RL/LL) incorr."
+10249,3,"Scan type (axial, helical) incorr."
+10250,3,Orientation of patient vs. Tx planning  computer incorr.
+10251,3,Axial/helical thickness incorr.
+10252,3,Gantry tilt incorr.
+10253,3,"Poor technique factors (kVp, mA)"
+10254,3,Custom attribute SL 1 (Most Severe)
+10255,3,Custom attribute SL 2
+10256,3,Custom attribute SL 3
+10257,3,Custom attribute SL 4
+10258,3,Custom attribute SL 5 (Least Severe)
+10259,1,Images
+10260,2,Reconstruction of wrong scan data
+10261,2,Reconstruction of wrong scan data
+10262,2,Images
+10263,3,Reconstruction of wrong scan data
+10264,3,"Reconstruction type (soft, bone) incorr."
+10265,3,"Image filter (smooth, edge) incorr."
+10266,3,Matrix size incorr.
+10267,3,Custom attribute SL 1 (Most Severe)
+10268,3,Custom attribute SL 2
+10269,3,Custom attribute SL 3
+10270,3,Custom attribute SL 4
+10271,3,Custom attribute SL 5 (Least Severe)
+10272,2,Lasers Alignment System
+10273,3,Lasers Z1-Z3 not at isocenter
+10274,3,Z1-Z3 alignment error > 1 mm
+10275,3,CT and laser 0 not equal
+10276,3,Fudicials vs laser marks > 1mm
+10277,3,Custom attribute SL 1 (Most Severe)
+10278,3,Custom attribute SL 2
+10279,3,Custom attribute SL 3
+10280,3,Custom attribute SL 4
+10281,3,Custom attribute SL 5 (Least Severe)
+10282,1,Computer Tx Planning
+10283,2,Tx Plan
+10284,3,Patient name incorr./miss.
+10285,3,Plan identification incorr./miss.
+10286,3,Tx site incorr./miss.
+10287,3,Patient imaging orientation incorr.
+10288,3,Patient Tx orientation incorr.
+10289,3,Patient registration incorr.
+10290,3,Image origin incorr.
+10291,3,Patient structures mislabeled
+10292,3,DVH miss.
+10293,3,PET/CT image fusion incorr.
+10294,3,Photon or electron algorithm used incorr.
+10295,3,Tx plan not signed within 1 week
+10296,3,Custom attribute SL 1 (Most Severe)
+10297,3,Custom attribute SL 2
+10298,3,Custom attribute SL 3
+10299,3,Custom attribute SL 4
+10300,3,Custom attribute SL 5 (Least Severe)
+10301,3,Tx plan not signed
+10302,3,Custom attribute SL 1 (Most Severe)
+10303,3,Custom attribute SL 2
+10304,3,Custom attribute SL 3
+10305,3,Custom attribute SL 4
+10306,3,Custom attribute SL 5 (Least Severe)
+10307,1,Dose Calculations
+10308,2,Manual Calculations
+10309,3,Tx site incorr./miss.
+10310,3,Field names or nos. incorr./miss.
+10311,3,Energy incorr./miss.
+10312,3,Energy incorr./miss.
+10313,3,SSD/SSD incorr./miss.
+10314,3,Effective depth incorr./miss.
+10315,3,Tray factor incorr./miss.
+10316,3,Wedge factor incorr./miss.
+10317,3,Bolus incorr./miss.
+10318,3,"Calc. w/bolus, bolus not in Rx"
+10319,3,Wrong collimator scatter factor
+10320,3,Wrong phantom scatter factor
+10321,3,Wrong inverse square factor
+10322,3,Math error
+10323,3,Calc. using wrong dose
+10324,3,Dose calc. not signed
+10325,3,Custom attribute SL 1 (Most Severe)
+10326,3,Custom attribute SL 1 (Most Severe)
+10327,3,Custom attribute SL 2
+10328,3,Custom attribute SL 3
+10329,3,Custom attribute SL 4
+10330,3,Custom attribute SL 5 (Least Severe)
+10331,2,Computer Calculations
+10332,3,Tx site incorr./miss.
+10333,3,Field names or nos. incorr./miss.
+10334,3,Energy incorr./miss.
+10335,3,Mode of Tx incorr./miss.
+10336,3,Field size incorr./miss.
+10337,3,Asymmetric jaw incorr./miss.
+10338,3,SSD/SAD incorr.
+10339,3,Effective depth incorr.
+10340,3,Gantry angle incorr./miss.
+10341,3,Collimator angle incorr./miss.
+10342,3,Tray factor incorr./miss.
+10343,3,Wedge angle incorr./miss.
+10344,3,Bolus incorr./miss.
+10345,3,Calc. to wrong point or structure
+10346,3,Calc. using wrong dose
+10347,3,Calc. not normalized correctly
+10348,3,Inhomogeneity not used in calc.
+10349,3,Prescribed dose percentage incorr.
+10350,3,Dose at primary reference point incorr.
+10351,3,Fractional dose incorr.
+10352,3,Custom attribute SL 1 (Most Severe)
+10353,3,Custom attribute SL 2
+10354,3,Custom attribute SL 3
+10355,3,Custom attribute SL 4
+10356,3,Custom attribute SL 5 (Least Severe)
+10357,1,Electron Cutouts
+10358,2,Measurements
+10359,3,Cutout used incorr.
+10360,3,Dose incorr.
+10361,3,Energy incorr.
+10362,3,Cone size incorr.
+10363,3,SSD incorr.
+10364,3,Depth incorr.
+10365,3,Isodose line incorr.
+10366,3,Depth of measurement incorr.
+10367,3,Custom attribute SL 1 (Most Severe)
+10368,3,Custom attribute SL 2
+10369,3,Custom attribute SL 3
+10370,3,Custom attribute SL 3
+10371,3,Custom attribute SL 5 (Least Severe)
+10372,3,Custom attribute SL 4
+10373,3,Custom attribute SL 5 (Least Severe)
+10374,1,Beam Modifiers
+10375,2,Fabrication/Mounting
+10376,3,Blocks cut incorr.
+10377,3,Hand set blocks mounted incorr.
+10378,3,Custom blocks mounted incorr.
+10379,3,Missing or late block checks
+10380,3,Bolus thickness incorr.
+10381,3,Bolus dimensions incorr.
+10382,3,Compensator dimensions incorr.
+10383,3,Pb cutout fit incorr.
+10384,3,Pb cutout dimensions incorr.
+10385,3,Custom attribute SL 1 (Most Severe)
+10386,3,Custom attribute SL 2
+10387,3,Custom attribute SL 3
+10388,3,Custom attribute SL 4
+10389,3,Custom attribute SL 5 (Least Severe)
+10390,2,Treatment Schedule
+10391,1,R & V
+10392,2,Treatment Schedule
+10393,3,Name incorr./miss.
+10394,3,Date incorr./miss.
+10395,3,Location incorr./miss.
+10396,3,Recurring appointments incorr./miss.
+10397,3,Scheduled pattern: daily incorr./miss.
+10398,3,Scheduled pattern: twice daily incorr./miss.
+10399,3,Scheduled pattern - weekly incorr./miss.
+10400,3,Scheduled pattern - bi-weekly incorr./miss.
+10401,3,Scheduled pattern - monthly incorr./miss.
+10402,3,No. of appointments incorr./miss.
+10403,3,Duration of appointment incorr./miss.
+10404,3,New start (appointment) incorr./miss.
+10405,3,Old start (appointment) incorr./miss.
+10406,3,Final treatment (appointment) incorr./miss.
+10407,3,Rescheduled appointment incorr./miss.
+10408,3,Custom attribute SL 1 (Most Severe)
+10409,3,Custom attribute SL 2
+10410,3,Custom attribute SL 3
+10411,3,Custom attribute SL 4
+10412,3,Custom attribute SL 5 (Least Severe)
+10413,2,Diagnosis
+10414,3,Full name incorr./miss.
+10415,3,Initial diagnosis date incorr./miss.
+10416,3,"Diagnosis type (new primary, recurrent) incorr./miss."
+10417,3,Diagnosis category (disease site) incorr./miss.
+10418,3,Primary site (topography group) incorr./miss.
+10419,3,Topography code (description) incorr./miss.
+10420,3,Laterality incorr./miss.
+10421,3,Morphology group incorr./miss.
+10422,3,Morphology code (description) incorr./miss.
+10423,3,Confirmation (histology) incorr./miss.
+10424,3,Custom attribute SL 1 (Most Severe)
+10425,3,Custom attribute SL 2
+10426,3,Custom attribute SL 3
+10427,3,Custom attribute SL 4
+10428,3,Custom attribute SL 5 (Least Severe)
+10429,2,Staging
+10430,3,Staging basis incorr./miss.
+10431,3,H/P grade incorr./miss.
+10432,3,Tumor size incorr./miss.
+10433,3,TNM staging factors incorr./miss.
+10434,3,Stage incorr./miss.
+10435,3,Lymph invade incorr./miss.
+10436,3,Venous invade incorr./miss.
+10437,3,Regional nodes exam incorr./miss.
+10438,3,Positive nodes incorr./miss.
+10439,3,Distant mets incorr./miss.
+10440,3,Custom attribute SL 1 (Most Severe)
+10441,3,Custom attribute SL 2
+10442,3,Custom attribute SL 3
+10443,3,Custom attribute SL 4
+10444,3,Custom attribute SL 5 (Least Severe)
+10445,2,Patient Care Plan
+10446,3,Morphology - course no. incorr./miss.
+10447,3,Effective date incorr./miss.
+10448,3,Assigning physician incorr./miss.
+10449,3,Protocol incorr./miss.
+10450,3,Intent incorr./miss.
+10451,3,Treatment modality - external beam incorr./miss.
+10452,3,Treatment modality - surgery incorr./miss.
+10453,3,Treatment modality - chemo incorr./miss.
+10454,3,Treatment modality - hyper incorr./miss.
+10455,3,Treatment modality - brachy incorr./miss.
+10456,3,Treatment modality - hormone incorr./miss.
+10457,3,Treatment modality - immuno incorr./miss.
+10458,3,Treatment modality - immuno incorr./miss.
+10459,3,Treatment modality - gene incorr./miss.
+10460,3,Treatment modality - gene incorr./miss.
+10461,3,Custom attribute SL 2
+10462,3,Custom attribute SL 3
+10463,3,Custom attribute SL 4
+10464,3,Custom attribute SL 5 (Least Severe)
+10465,3,Treatment modality - immuno incorr./miss.
+10466,3,Treatment modality - bone morrow incorr./miss.
+10467,3,Treatment modality - gene incorr./miss.
+10468,3,Custom attribute SL 1 (Most Severe)
+10469,3,Custom attribute SL 2
+10470,3,Custom attribute SL 3
+10471,3,Custom attribute SL 4
+10472,3,Custom attribute SL 5 (Least Severe)
+10473,2,Prescription
+10474,3,Rx course incorr./miss.
+10475,3,Rx site incorr./miss.
+10476,3,Technique incorr./miss.
+10477,3,Energy and modality (photons or electrons) incorr./miss.
+10478,3,Dose spec incorr./miss.
+10479,3,Rx depth incorr./miss.
+10480,3,Rx dose incorr./miss.
+10481,3,Fractional dose incorr./miss.
+10482,3,Total cumulative dose incorr./miss.
+10483,3,No. of fractions incorr./miss.
+10484,3,Fractionation pattern (fx/day) incorr./miss.
+10485,3,Pattern (fx/wk.) incorr./miss.
+10486,3,"Comment (field nos., beam modifiers) incorr./miss."
+10487,3,Electronic approval before 1st fx miss.
+10488,3,Custom attribute SL 1 (Most Severe)
+10489,3,Custom attribute SL 2
+10490,3,Custom attribute SL 3
+10491,3,Custom attribute SL 4
+10492,3,Custom attribute SL 5 (Least Severe)
+10493,2,Treatment Calendar
+10494,3,Scheduled set of Tx fields incorr.
+10495,3,No. of Tx sessions for schedule set incorr.
+10496,3,Session/day - QD/BID/TID incorr.
+10497,3,Pattern - daily/weekly/bi-weekly incorr.
+10498,3,Starting date incorr.
+10499,3,Ending date incorr.
+10500,3,Tx calendar entries not approved
+10501,3,Custom attribute SL 1 (Most Severe)
+10502,3,Custom attribute SL 2
+10503,3,Custom attribute SL 3
+10504,3,Custom attribute SL 4
+10505,3,Custom attribute SL 5 (Least Severe)
+10506,2,Treatment Field Definition
+10507,3,Field no. incorr./miss.
+10508,3,Field name incorr./miss.
+10509,3,Dose incorr./miss.
+10510,3,Machine incorr./miss.
+10511,3,Tolerance incorr./miss.
+10512,3,Type incorr./miss.
+10513,3,Modality (photons or electrons) incorr./miss.
+10514,3,Energy incorr./miss.
+10515,3,MU incorr./miss.
+10516,3,Time incorr./miss.
+10517,3,Doserate incorr./miss.
+10518,3,Fixed wedge angle incorr.
+10519,3,Fixed wedge orientation incorr.
+10520,3,"No fixed wedge specified, fixed wedge in plan"
+10521,3,EDW angle incorr.
+10522,3,EDW wedge orientation incorr.
+10523,3,"No EDW specified, EDW in plan"
+10524,3,Compensator incorr.
+10525,3,"No comp specified, comp in plan"
+10526,3,Block entered incorr.
+10527,3,No block specified; blocks in plan
+10528,3,Bolus entered incorr.
+10529,3,No bolus entered; bolus in plan
+10530,3,Cutout not indicated
+10531,3,TSD incorr./miss.
+10532,3,Gantry angle incorr./miss.
+10533,3,Collimator angle incorr./miss.
+10534,3,Field size incorr./miss.
+10535,3,Asymmetric jaw incorr./miss.
+10536,3,MLC incorr./miss.
+10537,3,Couch vertical incorr.
+10538,3,Couch angle incorr.
+10539,3,Pedestal incorr.
+10540,3,Custom attribute SL 1 (Most Severe)
+10541,3,Custom attribute SL 2
+10542,3,Custom attribute SL 3
+10543,3,Custom attribute SL 4
+10544,3,Custom attribute SL 5 (Least Severe)
+10545,2,Dose Tracking
+10546,3,Dose coefficients for Tx fields incorr./miss.
+10547,3,Dose coefficients for secondary sites incorr./miss.
+10548,3,Failure to define critical dose action points
+10549,3,Custom attribute SL 1 (Most Severe)
+10550,3,Custom attribute SL 2
+10551,3,Custom attribute SL 3
+10552,3,Custom attribute SL 4
+10553,3,Custom attribute SL 5 (Least Severe)
+10554,1,Paper Chart
+10555,2,Diagnosis
+10556,3,Full name incorr./miss.
+10557,3,Initial diagnosis date incorr./miss.
+10558,3,"Diagnosis type (new primary,recurrent) incorr./miss."
+10559,3,Diagnosis category (disease site) incorr./miss.
+10560,3,Primary site (topography group) incorr./miss.
+10561,3,Topography code (description) incorr./miss.
+10562,3,Laterality incorr./miss.
+10563,3,Morphology group incorr./miss.
+10564,3,Morphology code (description) incorr./miss.
+10565,3,Confirmation (histology) incorr./miss.
+10566,3,Custom attribute SL 1 (Most Severe)
+10567,3,Custom attribute SL 2
+10568,3,Custom attribute SL 3
+10569,3,Custom attribute SL 4
+10570,3,Custom attribute SL 5 (Least Severe)
+10571,2,Staging
+10572,3,Staging basis incorr./miss.
+10573,3,H/P grade incorr./miss.
+10574,3,Tumor size incorr./miss.
+10575,3,TNM staging factors incorr./miss.
+10576,3,Stage incorr./miss.
+10577,3,Lymph invade incorr./miss.
+10578,3,Venous invade incorr./miss.
+10579,3,Regional nodes exam incorr./miss.
+10580,3,Positive nodes incorr./miss.
+10581,3,Distant mets incorr./miss.
+10582,3,Custom attribute SL 1 (Most Severe)
+10583,3,Custom attribute SL 2
+10584,3,Custom attribute SL 3
+10585,3,Custom attribute SL 4
+10586,3,Custom attribute SL 5 (Least Severe)
+10587,2,Prescription
+10588,3,Rx date incorr./miss.
+10589,3,Rx course incorr./miss.
+10590,3,Rx site incorr./miss.
+10591,3,Field no. incorr./miss.
+10592,3,Field name incorr./miss.
+10593,3,Technique incorr./miss.
+10594,3,Energy and modality (photons or electrons) incorr./miss.
+10595,3,Dose specification incorr./miss.
+10596,3,Rx depth incorr./miss.
+10597,3,Total dose incorr./miss.
+10598,3,Total dose incorr./miss.
+10599,3,Total dose incorr./miss.
+10600,3,"Pattern (fx/day, fx/wk.) incorr./miss."
+10601,3,"Beam modifiers (wedges, bolus, compensators) incorr./miss."
+10602,3,MD signature before 1st fx miss.
+10603,3,Custom attribute SL 1 (Most Severe)
+10604,3,Custom attribute SL 2
+10605,3,Custom attribute SL 3
+10606,3,Custom attribute SL 4
+10607,3,Custom attribute SL 5 (Least Severe)
+10608,3,Fractional dose incorr./miss.
+10609,3,No. of fractions incorr./miss.
+10610,3,"Pattern (fx/day, fx/wk.) incorr./miss."
+10611,3,"Beam modifiers (wedges, bolus, compensators) incorr./miss."
+10612,3,MD signature before 1st fx miss.
+10613,3,Custom attribute SL 1 (Most Severe)
+10614,3,Custom attribute SL 2
+10615,3,Custom attribute SL 3
+10616,3,Custom attribute SL 4
+10617,3,Custom attribute SL 5 (Least Severe)
+10618,2,Patient Setup Documentation
+10619,3,DRRs incorr./miss.
+10620,3,Tx field photos incorr./miss.
+10621,3,Set-up instructions incorr./miss.
+10622,3,Custom attribute SL 1 (Most Severe)
+10623,3,Custom attribute SL 2
+10624,3,Custom attribute SL 3
+10625,3,Custom attribute SL 4
+10626,3,Custom attribute SL 5 (Least Severe)
+10627,2,Treatment Field Information
+10628,3,Date incorr./miss.
+10629,3,Machine incorr./miss.
+10630,3,Energy incorr./miss.
+10631,3,Field no. incorr./miss.
+10632,3,Field name incorr./miss.
+10633,3,SSD incorr./miss.
+10634,3,Field size incorr./miss.
+10635,3,Gantry angle incorr./miss.
+10636,3,Collimator angle incorr./miss.
+10637,3,Couch angle incorr./miss.
+10638,3,Blocks not corr. indicated
+10639,3,Blocks drawn in wrong orientation
+10640,3,Bolus not corr. indicated
+10641,3,Fixed wedge angle not corr. indicated
+10642,3,Fixed wedge orientation incorr.
+10643,3,"No fixed wedge specified, fixed wedge in plan"
+10644,3,EDW angle not corr. indicated
+10645,3,EDW wedge orientation incorr.
+10646,3,"No EDW specified, EDW in plan"
+10647,3,Cutout not corr. indicated
+10648,3,Cutout drawn in wrong orientation
+10649,3,Monitor units incorr./miss.
+10650,3,Dose incorr./miss.
+10651,3,Custom attribute SL 1 (Most Severe)
+10652,3,Custom attribute SL 2
+10653,3,Custom attribute SL 3
+10654,3,Custom attribute SL 4
+10655,3,Custom attribute SL 5 (Least Severe)
+10656,2,Patient Docs/Notes
+10657,3,Plan of treatment not documented
+10658,3,Signed consent forms not present
+10659,3,Custom attribute SL 1 (Most Severe)
+10660,3,Custom attribute SL 2
+10661,3,Custom attribute SL 3
+10662,3,Custom attribute SL 4
+10663,3,Custom attribute SL 5 (Least Severe)
+10664,3,Initial consultation not completed
+10665,3,Plan of treatment not documented
+10666,3,Signed consent forms not present
+10667,3,Custom attribute SL 1 (Most Severe)
+10668,3,Custom attribute SL 2
+10669,3,Custom attribute SL 3
+10670,3,Custom attribute SL 4
+10671,3,Custom attribute SL 5 (Least Severe)
+10672,2,Patient Identification
+10673,3,Redundant ID not performed
+10674,3,Patient chart/folder utilized incorr.
+10675,3,Patient pulled up in R&V incorr.
+10676,3,Missing face photo
+10677,3,Custom attribute SL 1 (Most Severe)
+10678,3,Custom attribute SL 2
+10679,3,Custom attribute SL 3
+10680,3,Custom attribute SL 4
+10681,3,Custom attribute SL 5 (Least Severe)
+10682,1,Patient Docs/Notes
+10683,2,Initial consultation not completed
+10684,2,Plan of treatment not documented
+10685,2,Default
+10686,3,Initial consultation not completed
+10687,3,Plan of treatment not documented
+10688,3,Signed consent forms not present
+10689,3,Custom attribute SL 1 (Most Severe)
+10690,3,Custom attribute SL 2
+10691,3,Custom attribute SL 3
+10692,3,Custom attribute SL 4
+10693,3,Custom attribute SL 5 (Least Severe)
+10694,2,Patient Identification
+10695,1,Patient Identification
+10696,2,Default
+10697,3,Redundant ID not performed
+10698,3,Patient chart/folder utilized incorr.
+10699,3,Patient pulled up in R&V incorr.
+10700,3,Missing face photo
+10701,3,Custom attribute SL 1 (Most Severe)
+10702,3,Custom attribute SL 2
+10703,3,Custom attribute SL 3
+10704,3,Custom attribute SL 4
+10705,3,Custom attribute SL 5 (Least Severe)
+10706,1,Portal Images
+10707,2,Radiographic Films
+10708,1,Portal Images
+10709,2,Radiographic Films
+10710,3,Patient name incorr./miss.
+10711,3,RO record no. incorr./miss.
+10712,3,Field name incorr./miss.
+10713,3,Labeling of anatomical orientation incorr.
+10714,3,"kVp, mA, secs. not documented"
+10715,3,"Poor technique factors (kVp, mA., secs.)"
+10716,3,X&Y plane blade settings incorr.
+10717,3,Films not taken prior to 1st fx
+10718,3,Initial films not approved before 1st fx
+10719,3,Initial films not taken of all fields
+10720,3,Weekly films not taken
+10721,3,Custom attribute SL 1 (Most Severe)
+10722,3,Custom attribute SL 2
+10723,3,Custom attribute SL 3
+10724,3,Custom attribute SL 4
+10725,3,Custom attribute SL 5 (Least Severe)
+10726,2,Electronic Imager
+10727,3,Images not taken prior to 1st fx
+10728,3,Initial images not approved before 1st fx
+10729,3,Initial images not taken of all fields
+10730,3,Images associated with wrong location/field
+10731,3,Images not saved
+10732,3,Images not imported
+10733,3,Images assigned to wrong patient
+10734,3,Weekly images not acquired
+10735,3,Weekly images not approved
+10736,3,Port images - treatment MUs incorrect in R&V
+10737,3,Port images - open exposure MUs incorrect in R&V
+10738,3,Port images - dose coefficient incorrect in R&V
+10739,3,Image contrast/brightness poor
+10740,3,Image ruler not calibrated
+10741,3,Custom attribute SL 1 (Most Severe)
+10742,3,Custom attribute SL 2
+10743,3,Custom attribute SL 3
+10744,3,Custom attribute SL 4
+10745,3,Custom attribute SL 5 (Least Severe)
+10746,1,In-Room Tx Setup
+10747,2,Fields
+10748,3,Setup wrong patient
+10749,3,Immobilization device missing
+10750,3,Field alignment > 2 mm
+10751,3,Fields incorr. entered in R&V
+10752,3,Failure to hide unused Tx fields in R&V
+10753,3,Custom attribute SL 1 (Most Severe)
+10754,3,Custom attribute SL 2
+10755,3,Custom attribute SL 3
+10756,3,Custom attribute SL 4
+10757,3,Custom attribute SL 5 (Least Severe)
+10758,2,Beam Modifiers
+10759,3,Blocks in incorr. orientation
+10760,3,Blocks incorr./miss.
+10761,3,Bolus incorr./miss.
+10762,3,Wedge incorr./miss.
+10763,3,Wedge in incorr. orientation
+10764,3,Cutout incorr./miss.
+10765,3,Cutout in wrong orient.
+10766,3,Pb cutout incorr./miss.
+10767,3,Pb cutout in wrong orientation
+10768,3,Compensator incorr./miss.
+10769,3,Custom attribute SL 1 (Most Severe)
+10770,3,Custom attribute SL 2
+10771,3,Custom attribute SL 3
+10772,3,Custom attribute SL 4
+10773,3,Custom attribute SL 5 (Least Severe)
+10774,1,Registration
+10775,2,Name/IDs/Personal
+10776,2,Full name incorr./miss.
+10777,3,Full name incorr./miss.
+10778,3,Birth date incorr./miss.
+10779,3,Age incorr./miss.
+10780,3,Medical record no. incorr./miss.
+10781,3,Gender incorr./miss.
+10782,3,SS no. incorr./miss.
+10783,3,Duplicate patient entry
+10784,3,Primary payer incorr./miss.
+10785,3,Custom attribute SL 1 (Most Severe)
+10786,3,Custom attribute SL 2
+10787,3,Custom attribute SL 3
+10788,3,Custom attribute SL 4
+10789,3,Custom attribute SL 5 (Least Severe)
+10790,2,Demographics
+10791,3,Medical record no. incorr./miss.
+10792,3,RO record no. incorr./miss.
+10793,3,Birth date incorr./miss.
+10794,3,Age incorr./miss.
+10795,3,Birth place incorr./miss.
+10796,3,Gender incorr./miss.
+10797,3,SS no. incorr./miss.
+10798,3,Race incorr./miss.
+10799,3,Religion incorr./miss.
+10800,3,Marital status incorr./miss.
+10801,3,Children incorr./miss.
+10802,3,Language incorr./miss.
+10803,3,Custom attribute SL 1 (Most Severe)
+10804,3,Custom attribute SL 2
+10805,3,Custom attribute SL 2
+10806,3,Custom attribute SL 3
+10807,3,Custom attribute SL 3
+10808,3,Custom attribute SL 4
+10809,3,Custom attribute SL 5 (Least Severe)
+10810,2,Admission
+10811,3,Diagnosis incorr./miss.
+10812,3,Histology incorr./miss.
+10813,3,H/P grade incorr./miss.
+10814,3,TNM stage incorr./miss.
+10815,3,Treatment intent incorr./miss.
+10816,3,Surgery incorr./miss.
+10817,3,Chemotherapy incorr./miss.
+10818,3,Previous RT incorr./miss.
+10819,3,Special precautions incorr./miss.
+10820,3,Special precautions incorr./miss.
+10821,3,Special precautions incorr./miss.
+10822,3,Expiration date incorr./miss.
+10823,3,Transportation incorr./miss.
+10824,3,In/outpatient incorr./miss.
+10825,3,Nursing unit incorr./miss.
+10826,3,Nurse incorr./miss.
+10827,3,Informed consent not signed/miss.
+10828,3,Custom attribute SL 1 (Most Severe)
+10829,3,Custom attribute SL 2
+10830,3,Custom attribute SL 3
+10831,3,Custom attribute SL 4
+10832,3,Custom attribute SL 5 (Least Severe)
+10833,3,Admit date/time incorr./miss.
+10834,3,Discharge date incorr./miss.
+10835,3,Expiration date incorr./miss.
+10836,3,Transportation incorr./miss.
+10837,3,Transportation incorr./miss.
+10838,3,Nursing unit incorr./miss.
+10839,3,Nurse incorr./miss.
+10840,3,Informed consent not signed/miss.
+10841,3,Custom attribute SL 1 (Most Severe)
+10842,3,Custom attribute SL 2
+10843,3,Custom attribute SL 3
+10844,3,Custom attribute SL 4
+10845,3,Custom attribute SL 5 (Least Severe)
+10846,3,In/outpatient incorr./miss.
+10847,3,Nursing unit incorr./miss.
+10848,3,Nurse incorr./miss.
+10849,3,Informed consent not signed/miss.
+10850,3,Custom attribute SL 1 (Most Severe)
+10851,3,Custom attribute SL 2
+10852,3,Custom attribute SL 3
+10853,3,Custom attribute SL 4
+10854,3,Custom attribute SL 5 (Least Severe)
+10855,2,Attending
+10856,3,Department incorr./miss.
+10857,3,Attending physician incorr./miss.
+10858,3,Attending resident incorr./miss.
+10859,3,Custom attribute SL 1 (Most Severe)
+10860,3,Custom attribute SL 2
+10861,3,Custom attribute SL 3
+10862,3,Custom attribute SL 4
+10863,3,Custom attribute SL 5 (Least Severe)
+10864,2,Referral
+10865,3,Primary physician incorr./miss.
+10866,3,Referring physician incorr./miss.
+10867,3,Referring facility incorr./miss.
+10868,3,Referred to facility incorr./miss.
+10869,3,Custom attribute SL 1 (Most Severe)
+10870,3,Custom attribute SL 2
+10871,3,Custom attribute SL 3
+10872,3,Custom attribute SL 4
+10873,3,Custom attribute SL 5 (Least Severe)
+10874,2,Home/Work
+10875,3,Home address incorr./miss.
+10876,3,Home phone incorr./miss.
+10877,3,Work address incorr./miss.
+10878,3,Work phone incorr./miss.
+10879,3,Custom attribute SL 1 (Most Severe)
+10880,3,Custom attribute SL 2
+10881,3,Custom attribute SL 3
+10882,3,Custom attribute SL 4
+10883,3,Custom attribute SL 5 (Least Severe)
+10884,2,Relative
+10885,3,Relationship incorr./miss.
+10886,3,Full name incorr./miss.
+10887,3,Home address incorr./miss.
+10888,3,Home phone incorr./miss.
+10889,3,Work address incorr./miss.
+10890,3,Work phone incorr./miss.
+10891,3,Custom attribute SL 1 (Most Severe)
+10892,3,Custom attribute SL 2
+10893,3,Custom attribute SL 3
+10894,3,Custom attribute SL 4
+10895,3,Custom attribute SL 5 (Least Severe)
+10896,2,Emergency
+10897,3,Relationship incorr./miss.
+10898,3,Full name incorr./miss.
+10899,3,Address incorr./miss.
+10900,3,Home phone incorr./miss.
+10901,3,Work phone incorr./miss.
+10902,3,Custom attribute SL 1 (Most Severe)
+10903,3,Custom attribute SL 2
+10904,3,Custom attribute SL 3
+10905,3,Custom attribute SL 4
+10906,3,Custom attribute SL 5 (Least Severe)
+10907,2,Home Care
+10908,3,Facility/hospice incorr./miss.
+10909,3,Phone incorr./miss.
+10910,3,Contact nurse incorr./miss.
+10911,3,Contact social worker incorr./miss.
+10912,3,Patient Self Determination Act (PSDA) info not given
+10913,3,"PSDA info given, date not recorded"
+10914,3,Custom attribute SL 1 (Most Severe)
+10915,3,Custom attribute SL 2
+10916,3,Custom attribute SL 3
+10917,3,Custom attribute SL 4
+10918,3,Custom attribute SL 5 (Least Severe)
+10919,1,Scheduling
+10920,2,Appointments
+10921,3,Wrong patient given appointment
+10922,3,Appointment not scheduled
+10923,3,Conflict of appointment dates/times
+10924,3,Appointment activity incorr./miss.
+10925,3,Appointment dates incorr./miss.
+10926,3,Appointment times incorr./miss.
+10927,3,Appointment times incorr./miss.
+10928,3,No. of appointments incorr./miss.
+10929,3,Appointment duration(s) incorr./miss.
+10930,3,Assigning staff incorr./miss.
+10931,3,Appointment location incorr./miss.
+10932,3,Custom attribute SL 1 (Most Severe)
+10933,3,Custom attribute SL 2
+10934,3,Custom attribute SL 3
+10935,3,Custom attribute SL 4
+10936,3,Custom attribute SL 5 (Least Severe)
+10937,2,Billing
+10938,3,Codes
+10939,2,Billing
+10940,1,Billing
+10941,2,Codes
+10942,3,Patient incorr./miss.
+10943,3,Date of charge incorr./miss.
+10944,3,Description incorr./miss.
+10945,3,CPT code incorr./miss.
+10946,3,CPT code modifier incorr./miss.
+10947,3,Internal hospital code incorr./miss.
+10948,3,Internal hospital code modifier incorr./miss.
+10949,3,No. of charges incorr./miss.
+10950,3,Diagnosis (ICD) code(s) incorr./miss.
+10951,3,In/outpatient designation incorr./miss.
+10952,3,Attending physician incorr./miss.
+10953,3,Department where code billed incorr./miss.
+10954,3,Facility where procedure billed incorr./miss.
+10955,3,Professional component posted incorr./miss.
+10956,3,Technical component posted incorr./miss.
+10957,3,Insurer authorization info. incorr./miss.
+10958,3,Insurer authorization no. incorr./miss.
+10959,3,Type of procedure/supply incorr./miss.
+10960,3,Custom attribute SL 1 (Most Severe)
+10961,3,Custom attribute SL 2
+10962,3,Custom attribute SL 3
+10963,3,Custom attribute SL 4
+10964,3,Custom attribute SL 5 (Least Severe)
+10965,1,Radiographic Simulation
+10966,2,Patient Setup
+10967,3,Sim field no. incorr./miss.
+10968,3,Sim field name incorr./miss.
+10969,3,Machine incorr./miss.
+10970,3,Patient position not isocentric to midline (SAD)
+10971,3,Patient position not to specified SSD
+10972,3,AP SSD miss.
+10973,3,PA SSD miss.
+10974,3,RL/Medial SSD miss.
+10975,3,LL/Medial SSD miss.
+10976,3,Calc. point SSD miss.
+10977,3,SFD miss./incomplete
+10978,3,Table vertical does not agree w/SSD
+10979,3,SSD read incorrectly
+10980,3,Separation does not agree w/SSD
+10981,3,Separation miss.
+10982,3,Incorrect contour
+10983,3,R&V: Failure to capture all Tx fields
+10984,3,R&V: Failure to capture correct Tx fields
+10985,3,R&V: Failure to capture setup fields
+10986,3,Setup instructions incorr.
+10987,3,Setup instructions miss./incomplete
+10988,3,Custom attribute SL 1 (Most Severe)
+10989,3,Custom attribute SL 2
+10990,3,Custom attribute SL 3
+10991,3,Custom attribute SL 4
+10992,3,Custom attribute SL 5 (Least Severe)
+10993,2,Setup Photos/Diagrams
+10994,3,Face ID photo incorr./miss.
+10995,3,Setup field photos incorr./miss.
+10996,3,Setup field photos not labeled
+10997,3,Setup field photos not scanned
+10998,3,Setup field photos not downloaded
+10999,3,Wrong setup field photos scanned
+11000,3,Setup field diagrams incorr./miss.
+11001,3,Setup field diagrams not labeled
+11002,3,Setup field diagrams not scanned
+11003,3,Setup field diagrams not downloaded
+11004,3,Wrong setup field diagrams scanned
+11005,3,Custom attribute SL 1 (Most Severe)
+11006,3,Custom attribute SL 2
+11007,3,Custom attribute SL 3
+11008,3,Custom attribute SL 4
+11009,3,Custom attribute SL 5 (Least Severe)
+11010,2,Films
+11011,3,Patient name incorr./miss.
+11012,3,RO record no. incorr./miss.
+11013,3,Date incorr./miss.
+11014,3,Sim field no. incorr./miss.
+11015,3,Sim field name incorr./miss.
+11016,3,Labeling of anatomical orientation incorr.
+11017,3,"kVp, mA, secs. not documented"
+11018,3,"Poor technique factors (kVp, mA., secs.)"
+11019,3,X&Y plane blade settings incorr.
+11020,3,Patient position not flat/straight
+11021,3,Film(s) not signed/dated by MD
+11022,3,Scanned DRRs not approved by MD
+11023,3,Custom attribute SL 1 (Most Severe)
+11024,3,Custom attribute SL 2
+11025,3,Custom attribute SL 3
+11026,3,Custom attribute SL 4
+11027,3,Custom attribute SL 5 (Least Severe)
+11028,1,CT Simulation
+11029,2,Patient Scan
+11030,3,Patient position - protocol vs table incorr.
+11031,3,Patient registration data incorr./miss.
+11032,3,Patient registration data incorr./miss.
+11033,3,Scan protocol for region incorr.
+11034,3,"Series (scout, axial, etc.) incorr."
+11035,3,FOV  incorr.
+11036,3,"Patient centering (AP/PA, RL/LL) incorr."
+11037,3,"Scan type (axial, helical) incorr."
+11038,3,Orientation of patient vs. Tx planning  computer incorr.
+11039,3,Gantry tilt incorr.
+11040,3,"Poor technique factors (kVp, mA)"
+11041,3,Custom attribute SL 1 (Most Severe)
+11042,3,Custom attribute SL 2
+11043,3,Custom attribute SL 3
+11044,3,Custom attribute SL 4
+11045,3,Custom attribute SL 5 (Least Severe)
+11046,3,Axial/helical thickness incorr.
+11047,3,Gantry tilt incorr.
+11048,3,"Poor technique factors (kVp, mA)"
+11049,3,Custom attribute SL 1 (Most Severe)
+11050,3,Custom attribute SL 2
+11051,3,Custom attribute SL 2
+11052,3,Custom attribute SL 3
+11053,3,Custom attribute SL 4
+11054,3,Custom attribute SL 5 (Least Severe)
+11055,2,Images
+11056,3,Reconstruction of wrong scan data
+11057,3,"Reconstruction type (soft, bone) incorr."
+11058,3,"Image filter (smooth, edge) incorr."
+11059,3,Matrix size incorr.
+11060,3,Custom attribute SL 1 (Most Severe)
+11061,3,Custom attribute SL 2
+11062,3,Custom attribute SL 3
+11063,3,Custom attribute SL 4
+11064,3,Custom attribute SL 5 (Least Severe)
+11065,2,Lasers Alignment System
+11066,3,Lasers Z1-Z3 not at isocenter
+11067,3,Z1-Z3 alignment error > 1 mm
+11068,3,"CT and laser ""0"" not equal"
+11069,3,Fudicials vs laser marks > 1mm
+11070,3,Custom attribute SL 1 (Most Severe)
+11071,3,Custom attribute SL 2
+11072,3,Custom attribute SL 3
+11073,3,Custom attribute SL 4
+11074,3,Custom attribute SL 5 (Least Severe)
+11075,1,Computer Tx Planning
+11076,1,Computer Tx Planning
+11077,2,Tx Plan
+11078,3,Patient name incorr./miss.
+11079,3,Plan identification incorr./miss.
+11080,3,Tx site incorr./miss.
+11081,3,Patient imaging orientation incorr.
+11082,3,Patient Tx orientation incorr.
+11083,3,Patient registration incorr.
+11084,3,Image origin incorr.
+11085,3,Patient structures mislabeled
+11086,3,DVH miss.
+11087,3,PET/CT image fusion incorr.
+11088,3,PET/CT image fusion incorr.
+11089,3,Photon or electron algorithm used incorr.
+11090,3,Tx plan not signed within 1 week
+11091,3,Custom attribute SL 1 (Most Severe)
+11092,3,Custom attribute SL 2
+11093,3,Custom attribute SL 3
+11094,3,Custom attribute SL 4
+11095,3,Custom attribute SL 5 (Least Severe)
+11096,1,Dose Calculations
+11097,2,Manual Calculations
+11098,3,Tx site incorr./miss.
+11099,3,Field names or nos. incorr./miss.
+1110,3,Course
+11100,3,Energy incorr./miss.
+11101,3,Field size incorr./miss.
+11102,3,SSD/SSD incorr./miss.
+11103,3,Effective depth incorr./miss.
+11104,3,Tray factor incorr./miss.
+11105,3,Wedge factor incorr./miss.
+11106,3,Bolus incorr./miss.
+11107,3,"Calc. w/bolus, bolus not in Rx"
+11108,3,Wrong collimator scatter factor
+11109,3,Wrong phantom scatter factor
+1111,3,Prescription site
+11110,3,Wrong inverse square factor
+11111,3,Math error
+11112,3,Calc. using wrong dose
+11113,3,Dose calc. not signed within 1 week
+11114,3,Custom attribute SL 1 (Most Severe)
+11115,3,Custom attribute SL 2
+11116,3,Custom attribute SL 3
+11117,3,Custom attribute SL 4
+11118,3,Custom attribute SL 5 (Least Severe)
+11119,2,Computer Calculations
+1112,3,Technique
+11120,3,Tx site incorr./miss.
+11121,3,Field names or nos. incorr./miss.
+11122,3,Energy incorr./miss.
+11123,3,Mode of Tx incorr./miss.
+11124,3,Field size incorr./miss.
+11125,3,Asymmetric jaw incorr./miss.
+11126,3,SSD/SAD incorr.
+11127,3,Effective depth incorr.
+11128,3,Gantry angle incorr./miss.
+11129,3,Collimator angle incorr./miss.
+1113,3,Modality (photons or electrons)
+11130,3,Tray factor incorr./miss.
+11131,3,Wedge angle incorr./miss.
+11132,3,Bolus incorr./miss.
+11133,3,Calc. to wrong point or structure
+11134,3,Calc. to wrong point or structure
+11135,3,Calc. not normalized correctly
+11136,3,Inhomogeneity not used in calc.
+11137,3,Prescribed dose percentage incorr.
+11138,3,Dose at primary reference point incorr.
+11139,3,Fractional dose incorr.
+1114,3,Dose specification
+11140,3,Custom attribute SL 1 (Most Severe)
+11141,3,Custom attribute SL 2
+11142,3,Custom attribute SL 3
+11143,3,Custom attribute SL 4
+11144,3,Custom attribute SL 5 (Least Severe)
+11145,3,Calc. using wrong dose
+11146,3,Calc. not normalized correctly
+11147,3,Inhomogeneity not used in calc.
+11148,3,Prescribed dose percentage incorr.
+11149,3,Dose at primary reference point incorr.
+1115,3,Depth
+11150,3,Fractional dose incorr.
+11151,3,Custom attribute SL 1 (Most Severe)
+11152,3,Custom attribute SL 2
+11153,3,Custom attribute SL 3
+11154,3,Custom attribute SL 4
+11155,3,Custom attribute SL 5 (Least Severe)
+11156,1,Electron Cutouts
+11157,2,Measurements
+11158,3,Cutout used incorr.
+11159,3,Dose incorr.
+1116,3,Total dose
+11160,3,Energy incorr.
+11161,3,Cone size incorr.
+11162,3,SSD incorr.
+11163,3,Depth incorr.
+11164,3,Isodose line incorr.
+11165,3,Depth of measurement incorr.
+11166,3,Energy used incorr.
+11167,3,Custom attribute SL 1 (Most Severe)
+11168,3,Custom attribute SL 2
+11169,3,Custom attribute SL 3
+1117,3,Fraction dose
+11170,3,Custom attribute SL 4
+11171,3,Custom attribute SL 5 (Least Severe)
+11172,1,R & V
+11173,2,Treatment Schedule
+11174,3,Name incorr./miss.
+11175,3,Date incorr./miss.
+11176,3,Location incorr./miss.
+11177,3,Recurring appointments incorr./miss.
+11178,3,Scheduled pattern: daily incorr./miss.
+11179,3,Scheduled pattern: twice daily incorr./miss.
+1118,3,Fractions
+11180,3,Scheduled pattern - weekly incorr./miss.
+11181,3,Scheduled pattern - bi-weekly incorr./miss.
+11182,3,Scheduled pattern - monthly incorr./miss.
+11183,3,No. of appointments incorr./miss.
+11184,3,Duration of appointment incorr./miss.
+11185,3,New start (appointment) incorr./miss.
+11186,3,Old start (appointment) incorr./miss.
+11187,3,Final treatment (appointment) incorr./miss.
+11188,3,Rescheduled appointment incorr./miss.
+11189,3,Custom attribute SL 1 (Most Severe)
+1119,3,Pattern
+11190,3,Custom attribute SL 2
+11191,3,Custom attribute SL 3
+11192,3,Custom attribute SL 4
+11193,3,Custom attribute SL 5 (Least Severe)
+11194,2,Diagnosis
+11195,3,Full name incorr./miss.
+11196,3,Initial diagnosis date incorr./miss.
+11197,3,"Diagnosis type (new primary, recurrent) incorr./miss."
+11198,3,Diagnosis category (disease site) incorr./miss.
+11199,3,Primary site (topography group) incorr./miss.
+1120,3,Prescription note1
+11200,3,Topography code (description) incorr./miss.
+11201,3,Laterality incorr./miss.
+11202,3,Morphology group incorr./miss.
+11203,3,Morphology code (description) incorr./miss.
+11204,3,Confirmation (histology) incorr./miss.
+11205,3,Custom attribute SL 1 (Most Severe)
+11206,3,Custom attribute SL 2
+11207,3,Custom attribute SL 3
+11208,3,Custom attribute SL 4
+11209,3,Custom attribute SL 5 (Least Severe)
+1121,3,Elect. appoval before 1st fx
+11210,2,Staging
+11211,3,Staging basis incorr./miss.
+11212,3,H/P grade incorr./miss.
+11213,3,Tumor size incorr./miss.
+11214,3,TNM staging factors incorr./miss.
+11215,3,Stage incorr./miss.
+11216,3,Lymph invade incorr./miss.
+11217,3,Venous invade incorr./miss.
+11218,3,Regional nodes exam incorr./miss.
+11219,3,Positive nodes incorr./miss.
+1122,3,Custom Attribute
+11220,3,Distant mets incorr./miss.
+11221,3,Custom attribute SL 1 (Most Severe)
+11222,3,Custom attribute SL 2
+11223,3,Custom attribute SL 3
+11224,3,Custom attribute SL 4
+11225,3,Custom attribute SL 5 (Least Severe)
+11226,2,Patient Care Plan
+11227,3,Morphology - course no. incorr./miss.
+11228,3,Effective date incorr./miss.
+11229,3,Assigning physician incorr./miss.
+11230,3,Protocol incorr./miss.
+11231,3,Intent incorr./miss.
+11232,3,Treatment modality - external beam incorr./miss.
+11233,3,Treatment modality - surgery incorr./miss.
+11234,3,Treatment modality - chemo incorr./miss.
+11235,3,Treatment modality - hyper incorr./miss.
+11236,3,Treatment modality - brachy incorr./miss.
+11237,3,Treatment modality - hormone incorr./miss.
+11238,3,Treatment modality - immuno incorr./miss.
+11239,3,Treatment modality - bone morrow incorr./miss.
+11240,3,Treatment modality - gene incorr./miss.
+11241,3,Custom attribute SL 1 (Most Severe)
+11242,3,Custom attribute SL 2
+11243,3,Custom attribute SL 3
+11244,3,Custom attribute SL 4
+11245,3,Custom attribute SL 5 (Least Severe)
+11246,2,Prescription
+11247,3,Rx course incorr./miss.
+11248,3,Rx site incorr./miss.
+11249,3,Technique incorr./miss.
+11250,3,Energy and modality (photons or electrons) incorr./miss.
+11251,3,Dose spec incorr./miss.
+11252,3,Rx depth incorr./miss.
+11253,3,Rx dose incorr./miss.
+11254,3,Fractional dose incorr./miss.
+11255,3,Total cumulative dose incorr./miss.
+11256,3,No. of fractions incorr./miss.
+11257,3,Fractionation pattern (fx/day) incorr./miss.
+11258,3,Pattern (fx/wk.) incorr./miss.
+11259,3,"Comment (field nos., beam modifiers) incorr./miss."
+11260,3,Electronic approval before 1st fx miss.
+11261,3,Custom attribute SL 1 (Most Severe)
+11262,3,Custom attribute SL 2
+11263,3,Custom attribute SL 3
+11264,3,Custom attribute SL 4
+11265,3,Custom attribute SL 5 (Least Severe)
+11266,2,Treatment Calendar
+11267,3,Scheduled set of Tx fields incorr.
+11268,3,No. of Tx sessions for schedule set incorr.
+11269,3,Session/day - QD/BID/TID incorr.
+11270,3,Pattern - daily/weekly/bi-weekly incorr.
+11271,3,Starting date incorr.
+11272,3,Ending date incorr.
+11273,3,Tx calendar entries not approved
+11274,3,Custom attribute SL 1 (Most Severe)
+11275,3,Custom attribute SL 2
+11276,3,Custom attribute SL 3
+11277,3,Custom attribute SL 4
+11278,3,Custom attribute SL 5 (Least Severe)
+11279,2,Treatment Field Definitions
+11280,3,Field no. incorr./miss.
+11281,3,Field name incorr./miss.
+11282,3,Dose incorr./miss.
+11283,3,Machine incorr./miss.
+11284,3,Tolerance incorr./miss.
+11285,3,Type incorr./miss.
+11286,3,Modality (photons or electrons) incorr./miss.
+11287,3,Energy incorr./miss.
+11288,3,MU incorr./miss.
+11289,3,Time incorr./miss.
+11290,3,Doserate incorr./miss.
+11291,3,Fixed wedge angle incorr.
+11292,3,Fixed wedge orientation incorr.
+11293,3,"No fixed wedge specified, fixed wedge in plan"
+11294,3,EDW angle incorr.
+11295,3,EDW wedge orientation incorr.
+11296,3,"No EDW specified, EDW in plan"
+11297,3,Compensator incorr.
+11298,3,"No comp specified, comp in plan"
+11299,3,Block entered incorr.
+11300,3,No block specified; blocks in plan
+11301,3,Bolus entered incorr.
+11302,3,No bolus entered; bolus in plan
+11303,3,Cutout not indicated
+11304,3,TSD incorr./miss.
+11305,3,Gantry angle incorr./miss.
+11306,3,Collimator angle incorr./miss.
+11307,3,Field size incorr./miss.
+11308,3,Asymmetric jaw incorr./miss.
+11309,3,MLC incorr./miss.
+11310,3,Couch vertical incorr.
+11311,3,Couch angle incorr.
+11312,3,Pedestal incorr.
+11313,3,Custom attribute SL 1 (Most Severe)
+11314,3,Custom attribute SL 2
+11315,3,Custom attribute SL 3
+11316,3,Custom attribute SL 4
+11317,3,Custom attribute SL 5 (Least Severe)
+11318,2,Dose Tracking
+11319,3,Dose coefficients for Tx fields incorr./miss.
+11320,2,Dose coefficients for secondary sites incorr./miss.
+11321,2,Dose coefficients for secondary sites incorr./miss.
+11322,3,Dose coefficients for secondary sites incorr./miss.
+11323,3,Failure to define critical dose action points
+11324,3,Custom attribute SL 1 (Most Severe)
+11325,3,Custom attribute SL 2
+11326,3,Custom attribute SL 3
+11327,3,Custom attribute SL 4
+11328,3,Custom attribute SL 5 (Least Severe)
+11329,2,Daily Treatment Record
+11330,3,Elapsed days incorr.
+11331,3,Fraction no. incorr.
+11332,3,Unapproved over-rides
+11333,3,Failure to acknowledge dose action points
+11334,3,Failure to acknowledge pre-Tx warnings
+11335,3,Failure to acknowledge dose & fx warnings
+11336,3,Failure to acknowledge Tx machine mismatch
+11337,3,Failure to acknowledge post-Tx messages
+11338,3,Failure to hide unused Tx fields in R&V
+11339,3,Failure to approve initial Tx fields
+11340,3,Daily dose incorr. recorded
+11341,3,Daily dose not recorded
+11342,3,Cum. dose incorr./not recorded
+11343,3,Portal images not recorded
+11344,3,Comments not filled out
+11345,3,Failure to log in 2nd treating therapist
+11346,3,Custom attribute SL 1 (Most Severe)
+11347,3,Custom attribute SL 2
+11348,3,Custom attribute SL 3
+11349,3,Custom attribute SL 4
+11350,3,Custom attribute SL 5 (Least Severe)
+11351,1,Paper Treatment Chart
+11352,2,Diagnosis
+11353,3,Full name incorr./miss.
+11354,3,Initial diagnosis date incorr./miss.
+11355,3,"Diagnosis type (new primary,recurrent) incorr./miss."
+11356,3,Diagnosis category (disease site) incorr./miss.
+11357,3,Primary site (topography group) incorr./miss.
+11358,3,Topography code (description) incorr./miss.
+11359,3,Laterality incorr./miss.
+11360,3,Morphology group incorr./miss.
+11361,3,Morphology group incorr./miss.
+11362,3,Confirmation (histology) incorr./miss.
+11363,3,Custom attribute SL 1 (Most Severe)
+11364,3,Custom attribute SL 2
+11365,3,Custom attribute SL 3
+11366,3,Custom attribute SL 4
+11367,3,Custom attribute SL 4
+11368,3,Custom attribute SL 5 (Least Severe)
+11369,3,Morphology code (description) incorr./miss.
+11370,3,Confirmation (histology) incorr./miss.
+11371,3,Custom attribute SL 1 (Most Severe)
+11372,3,Custom attribute SL 2
+11373,3,Custom attribute SL 3
+11374,3,Custom attribute SL 4
+11375,3,Custom attribute SL 5 (Least Severe)
+11376,2,Staging
+11377,3,Staging basis incorr./miss.
+11378,3,H/P grade incorr./miss.
+11379,3,Tumor size incorr./miss.
+11380,3,TNM staging factors incorr./miss.
+11381,3,Stage incorr./miss.
+11382,3,Lymph invade incorr./miss.
+11383,3,Venous invade incorr./miss.
+11384,3,Regional nodes exam incorr./miss.
+11385,3,Positive nodes incorr./miss.
+11386,3,Distant mets incorr./miss.
+11387,3,Custom attribute SL 1 (Most Severe)
+11388,3,Custom attribute SL 2
+11389,3,Custom attribute SL 3
+11390,3,Custom attribute SL 4
+11391,3,Custom attribute SL 5 (Least Severe)
+11392,2,Prescription
+11393,3,Rx date incorr./miss.
+11394,3,Rx course incorr./miss.
+11395,3,Rx site incorr./miss.
+11396,3,Field no. incorr./miss.
+11397,3,Field name incorr./miss.
+11398,3,Technique incorr./miss.
+11399,3,Energy and modality (photons or electrons) incorr./miss.
+11400,3,Dose specification incorr./miss.
+11401,3,Rx depth incorr./miss.
+11402,3,Total dose incorr./miss.
+11403,3,Fractional dose incorr./miss.
+11404,3,No. of fractions incorr./miss.
+11405,3,"Pattern (fx/day, fx/wk.) incorr./miss."
+11406,3,"Beam modifiers (wedges, bolus, compensators) incorr./miss."
+11407,3,MD signature before 1st Tx miss.
+11408,3,Custom attribute SL 1 (Most Severe)
+11409,3,Custom attribute SL 2
+11410,3,Custom attribute SL 3
+11411,3,Custom attribute SL 4
+11412,3,Custom attribute SL 5 (Least Severe)
+11413,2,Patient Setup Documentation
+11414,3,DRRs incorr./miss.
+11415,3,Tx field photos incorr./miss.
+11416,3,Set-up instructions incorr./miss.
+11417,3,Custom attribute SL 1 (Most Severe)
+11418,3,Custom attribute SL 2
+11419,3,Custom attribute SL 3
+11420,3,Custom attribute SL 4
+11421,3,Custom attribute SL 5 (Least Severe)
+11422,2,Treatment Field Information
+11423,3,Date incorr./miss.
+11424,3,Machine incorr./miss.
+11425,3,Energy incorr./miss.
+11426,3,Field no. incorr./miss.
+11427,3,Field name incorr./miss.
+11428,3,SSD incorr./miss.
+11429,3,Field size incorr./miss.
+11430,3,Gantry angle incorr./miss.
+11431,3,Collimator angle incorr./miss.
+11432,3,Couch angle incorr./miss.
+11433,3,Blocks not corr. indicated
+11434,3,Blocks drawn in wrong orientation
+11435,3,Bolus not corr. indicated
+11436,3,Fixed wedge angle not corr. indicated
+11437,3,Fixed wedge orientation incorr.
+11438,3,"No fixed wedge specified, fixed wedge in plan"
+11439,3,EDW angle not corr. indicated
+11440,3,EDW wedge orientation incorr.
+11441,3,"No EDW specified, EDW in plan"
+11442,3,Cutout not corr. indicated
+11443,3,Cutout drawn in wrong orientation
+11444,3,Monitor units incorr./miss.
+11445,3,Dose incorr./miss.
+11446,3,Custom attribute SL 1 (Most Severe)
+11447,3,Custom attribute SL 2
+11448,3,Custom attribute SL 3
+11449,3,Custom attribute SL 4
+11450,3,Custom attribute SL 5 (Least Severe)
+11451,2,Daily Treatment Record
+11452,3,Scheduled Tx date incorr.
+11453,3,Elapsed days incorr./miss.
+11454,3,Fraction no. incorr./miss.
+11455,3,Unapproved R&V over-rides not recorded
+11456,3,Daily dose incorr. recorded
+11457,3,Daily dose not recorded
+11458,3,Cumulative dose incorr./not recorded
+11459,3,Portal films/images not recorded
+11460,3,Important comments not filled out
+11461,3,Custom attribute SL 1 (Most Severe)
+11462,3,Custom attribute SL 2
+11463,3,Custom attribute SL 3
+11464,3,Custom attribute SL 4
+11465,3,Custom attribute SL 5 (Least Severe)
+11466,1,Patient Docs/Notes
+11467,2,Plan of treatment not documented
+11468,2,Default
+11469,3,Initial consultation not completed
+11470,3,DRRs incorr./miss.
+11471,3,Tx field photos incorr./miss.
+11472,3,Set-up instructions incorr./miss.
+11473,3,Custom attribute SL 1 (Most Severe)
+11474,3,Custom attribute SL 2
+11475,3,Custom attribute SL 3
+11476,3,Custom attribute SL 4
+11477,3,Custom attribute SL 5 (Least Severe)
+11478,3,Plan of treatment not documented
+11479,3,Signed consent forms not present
+11480,3,Weekly progress notes miss./late
+11481,3,Tx (completion) summary not completed
+11482,3,Follow-up evaluation not completed
+11483,3,Custom attribute SL 1 (Most Severe)
+11484,3,Custom attribute SL 2
+11485,3,Custom attribute SL 3
+11486,3,Custom attribute SL 4
+11487,3,Custom attribute SL 5 (Least Severe)
+11488,1,Patient Identification
+11489,2,Default
+11490,3,Redundant ID not performed
+11491,3,Patient chart/folder utilized incorr.
+11492,3,Patient pulled up in R&V incorr.
+11493,3,Missing face photo
+11494,3,Tx (completion) summary not completed
+11495,3,Follow-up evaluation not completed
+11496,3,Custom attribute SL 1 (Most Severe)
+11497,3,Custom attribute SL 2
+11498,3,Custom attribute SL 3
+11499,3,Custom attribute SL 4
+11500,3,Custom attribute SL 5 (Least Severe)
+11501,1,Portal Images
+11502,2,Radiographic Films
+11503,3,Patient name incorr./miss.
+11504,3,RO record no. incorr./miss.
+11505,3,RO record no. incorr./miss.
+11506,3,Field name incorr./miss.
+11507,3,Labeling of anatomical orientation incorr.
+11508,3,"kVp, mA, secs. not documented"
+11509,3,"Poor technique factors (kVp, mA., secs.)"
+11510,3,X&Y plane blade settings incorr.
+11511,3,Films not taken prior to 1st fx
+11512,3,Initial films not approved before 1st fx
+11513,3,Initial films not taken of all fields
+11514,3,Weekly films not taken
+11515,3,Custom attribute SL 1 (Most Severe)
+11516,3,Custom attribute SL 2
+11517,3,Custom attribute SL 3
+11518,3,Custom attribute SL 4
+11519,3,Custom attribute SL 5 (Least Severe)
+11520,2,Electronic Imager
+11521,3,Images not taken prior to 1st fx
+11522,3,Initial images not approved before 1st fx
+11523,3,Initial images not taken of all fields
+11524,3,Images associated with wrong location/field
+11525,3,Images not saved
+11526,3,Images not imported
+11527,3,Images assigned to wrong patient
+11528,3,Weekly images not acquired
+11529,3,Weekly images not approved
+11530,3,Port images - treatment MUs incorrect in R&V
+11531,3,Port images - open exposure MUs incorrect in R&V
+11532,3,Port images - dose coefficient incorrect in R&V
+11533,3,Image contrast/brightness poor
+11534,3,Image ruler not calibrated
+11535,3,Custom attribute SL 1 (Most Severe)
+11536,3,Custom attribute SL 2
+11537,3,Custom attribute SL 3
+11538,3,Custom attribute SL 4
+11539,3,Custom attribute SL 5 (Least Severe)
+11540,1,Treatment Delivery
+11541,2,Patient Setup
+11542,3,Immobilization device miss.
+11543,3,Field alignment > 2 mm
+11544,3,Fields incorr. entered in R&V
+11545,3,Custom attribute SL 1 (Most Severe)
+11546,3,Custom attribute SL 2
+11547,3,Custom attribute SL 3
+11548,3,Custom attribute SL 4
+11549,3,Custom attribute SL 5 (Least Severe)
+11550,2,Beam Modifiers
+11551,3,Wrong blocks used
+11552,3,"Blocks required, no blocks used"
+11553,3,Blocks cut incorr.
+11554,3,Hand set blocks mounted incorr.
+11555,3,Custom blocks mounted incorr.
+11556,3,Blocks used in incorr. orientation
+11557,3,Block checks miss./late
+11558,3,Wrong bolus used
+11559,3,"Bolus required, no bolus used"
+11560,3,Bolus thickness incorr.
+11561,3,Bolus dimensions incorr.
+11562,3,"Compensator required, no compensator used"
+11563,3,Compensator dimensions incorr.
+11564,3,Wrong Pb cutout used
+11565,3,"Pb cutout required, no cutout used"
+11566,3,Pb cutout fit incorr.
+11567,3,Pb cutout dimensions incorr.
+11568,3,Wrong fixed wedge used
+11569,3,"Fixed wedges required, no wedges used"
+11570,3,Fixed wedge used in incorr. orientation
+11571,3,Wrong dynamic wedge used
+11572,3,"Dynamic wedges required, no wedges used"
+11573,3,Dynamic wedge used in incorr. orientation
+11574,3,Custom attribute SL 1 (Most Severe)
+11575,3,Custom attribute SL 2
+11576,3,Custom attribute SL 3
+11577,3,Custom attribute SL 4
+11578,3,Custom attribute SL 5 (Least Severe)
+11579,2,Administration of Radiation
+11580,3,Tx without prescription
+11581,3,Tx with wrong mode of treatment (X or e-)
+11582,3,Wrong treatment site
+11583,3,Tx of wrong patient
+11584,3,Custom attribute SL 1 (Most Severe)
+11585,3,Custom attribute SL 2
+11586,3,Custom attribute SL 3
+11587,3,Custom attribute SL 4
+11588,3,Custom attribute SL 5 (Least Severe)
+11589,2,Accelerator
+11590,3,Daily linac output constancy miss./late
+11591,3,Daily linac mechanical checks miss./late
+11592,3,Daily linac laser checks miss./late
+11593,3,Weekly linac mechanical checks miss./late
+11594,3,Monthly linac mechanical checks miss./late
+11595,3,Monthly linac output constancy miss./late
+11596,3,Monthly linac energy constancy miss./late
+11597,3,Monthly linac light vs radiation field coincidence checks miss./late
+11598,3,Monthly linac flatness and symmetry constancy miss./late
+11599,3,Monthly linac radiographic filming of graticule miss./late
+11600,3,Annual linac calibration miss./late
+11601,3,Annual TLD output & energy checks miss./late
+11602,3,Full linac calibration not performed when monthly output differs by > 5%
+11603,3,"Linac measurement exceeding tolerance, no action taken"
+11604,3,Custom attribute SL 1 (Most Severe)
+11605,3,Custom attribute SL 2
+11606,3,Custom attribute SL 3
+11607,3,Custom attribute SL 4
+11608,3,Custom attribute SL 5 (Least Severe)
+11609,2,Simulator
+11610,3,Daily CT sim phantom checks miss./late
+11611,3,Daily CT sim laser checks miss./late
+11612,3,Monthly CT sim phantom checks miss./late
+11613,3,Annual CT sim calibration miss./late
+11614,3,Daily conventional sim mechanical checks miss./late
+11615,3,Daily conventional sim laser checks miss./late
+11616,3,Weekly conventional sim mechanical checks miss./late
+11617,3,Monthly conventional sim mechanical checks miss./late
+11618,3,Monthly conventional sim light vs radiation field coincidence checks miss./late
+11619,3,Monthly conventional sim fluoroscopic image resolution test miss./late
+11620,3,Monthly conventional sim collision avoidance checks miss./late
+11621,3,Annual conventional sim calibration miss./late
+11622,3,"CT/conventional sim measurement exceeding tolerance, no action taken"
+11623,3,Custom attribute SL 1 (Most Severe)
+11624,3,Custom attribute SL 2
+11625,3,Custom attribute SL 3
+11626,3,Custom attribute SL 4
+11627,3,Custom attribute SL 5 (Least Severe)
+11628,2,Equipment
+11629,3,Annual output constancy device calibration miss./late
+11630,3,Two-year ion chamber/electrometer calibration miss./late
+11631,3,Annual ion chamber/electrometer intercomparison miss./late
+11632,3,Monthly diode calibration miss./late
+11633,3,Weekly film processor sensitometry miss./late
+11634,3,Diagnostic kit annual calibration miss./late
+11635,3,"Equipment measurement exceeding tolerance, no action taken"
+11636,3,Custom attribute SL 1 (Most Severe)
+11637,3,Custom attribute SL 2
+11638,3,Custom attribute SL 3
+11639,3,Custom attribute SL 4
+11640,3,Custom attribute SL 5 (Least Severe)
+11641,2,Tx Planning Computer
+11642,3,Daily digitizer/plotter reproducibility test miss./late
+11643,3,Monthly Tx planning computer checksum miss./late
+11644,3,Initial commissioning of Tx planning/dose calc programs miss./late
+11645,3,Tests after Tx planning program modifications/upgrades miss./late
+11646,3,Annual recommissioning of Tx planning computer miss./late
+11647,3,"Tx planning computer parameter exceeding tolerance, no action taken"
+11648,3,Custom attribute SL 1 (Most Severe)
+11649,3,Custom attribute SL 2
+11650,3,Custom attribute SL 3
+11651,3,Custom attribute SL 4
+11652,3,Custom attribute SL 5 (Least Severe)
+11653,2,IMRT
+11654,3,Daily Static MLC Pattern check
+11655,3,Semi-weekly Picket Fence film constancy miss./late
+11656,3,Semi-weekly Test Pattern film constancy miss./late
+11657,3,Monthly Long-Term Stability of DMLC Output constancy miss./late
+11658,3,Monthly Stability of DMLC Output vs Gantry/Collimator Angles constancy miss./late
+11659,3,Patient specific computer vs film/array fluence analysis not performed
+11660,3,Patient specific microchamber measurements not performed
+11661,3,"IMRT measurement exceeding tolerance, no action taken"
+11662,3,Custom attribute SL 1 (Most Severe)
+11663,3,Custom attribute SL 2
+11664,3,Custom attribute SL 3
+11665,3,Custom attribute SL 4
+11666,3,Custom attribute SL 5 (Least Severe)
+11667,2,Checks
+11668,3,Initial verification of Tx information (non-R&V) miss./late
+11669,3,Calc check miss./late
+11670,3,Calc check incomplete
+11671,3,Weekly therapists chart checks miss./late
+11672,3,Weekly physics chart checks miss./late
+11673,3,Manual Tx w/o prior approval (R&V)
+11674,3,Visual configuration check of new blocks miss./late
+11675,3,Visual alignment check of new trays miss./late
+11676,3,"Check/test exceeding tolerance, no action taken"
+11677,3,Custom attribute SL 1 (Most Severe)
+11678,3,Custom attribute SL 2
+11679,3,Custom attribute SL 3
+11680,3,Custom attribute SL 4
+11681,3,Custom attribute SL 5 (Least Severe)
+11682,2,Training
+11683,3,New employee QA training miss./late
+11684,3,Locum employee QA training miss./late
+11685,3,Annual refresher QA training miss./late
+11686,3,Custom attribute SL 1 (Most Severe)
+11687,3,Custom attribute SL 2
+11688,3,Custom attribute SL 3
+11689,3,Custom attribute SL 4
+11690,3,Custom attribute SL 5 (Least Severe)
+11691,2,Accelerator
+11692,3,Daily linac visual monitoring system check miss./late
+11693,3,Daily linac audio monitoring system check miss./late
+11694,3,Custom attribute SL 1 (Most Severe)
+11695,3,Custom attribute SL 2
+11696,3,Custom attribute SL 3
+11697,3,Custom attribute SL 4
+11698,3,Custom attribute SL 5 (Least Severe)
+11699,2,Equipment
+11700,3,Sim lasers inoperable  2
+11701,3,Linac lasers inoperable  2
+11702,3,Linac visual monitoring system inoperable
+11703,3,Sim lasers inoperable
+11704,3,Linac lasers inoperable
+11705,3,Linac visual monitoring system inoperable
+11706,3,Linac audio monitoring system inoperable
+11707,3,Linac emergency-off switches inoperable
+11708,3,Custom attribute SL 1 (Most Severe)
+11709,3,Custom attribute SL 2
+11710,3,Custom attribute SL 3
+11711,3,Custom attribute SL 4
+11712,3,Custom attribute SL 5 (Least Severe)
+11713,2,Meetings
+11714,3,Weekly chart rounds miss./late
+11715,3,Quarterly QIC meeting miss./late
+11716,3,Quorum not established at QIC meeting
+11717,3,Custom attribute SL 1 (Most Severe)
+11718,3,Custom attribute SL 2
+11719,3,Custom attribute SL 3
+11720,3,Custom attribute SL 4
+11721,3,Custom attribute SL 5 (Least Severe)
+11722,3,Linac keys not secured
+11723,3,"Daily linac ""beam-on"" light check miss./late"
+11724,3,"Daily linac ""beam-on"" light check miss./late"
+11725,3,Daily linac door interlock check miss./late
+11726,3,Daily linac visual monitoring system check miss./late
+11727,3,Daily linac audio monitoring system check miss./late
+11728,3,Monthly linac emergency-off checks miss./late
+11729,3,Custom attribute SL 1 (Most Severe)
+11730,3,Custom attribute SL 2
+11731,3,Custom attribute SL 3
+11732,3,Custom attribute SL 4
+11733,3,Custom attribute SL 5 (Least Severe)
+11734,3,Survey meter inoperable
+11735,3,Daily survey meter check miss./late
+11736,3,Annual survey meter calibration miss./late
+11737,3,Area monitor inoperable
+11738,3,Annual area monitor calibration miss./late
+11739,3,Sim door interlock inoperable
+11740,3,"Sim ""beam-on"" light inoperable"
+11741,3,Sim lasers inoperable
+11742,3,Sim emergency-off switches inoperable
+11743,3,Linac door interlock inoperable
+11744,3,"Linac ""beam-on"" light inoperable"
+11745,3,Linac lasers inoperable
+11746,3,Linac visual monitoring system inoperable
+11747,3,Linac audio monitoring system inoperable
+11748,3,Linac emergency-off switches inoperable
+11749,3,Custom attribute SL 1 (Most Severe)
+11750,3,Custom attribute SL 2
+11751,3,Custom attribute SL 3
+11752,3,Custom attribute SL 4
+11753,3,Custom attribute SL 5 (Least Severe)
+11754,2,Simulator
+11755,3,"Daily CT sim ""beam-on"" light check miss./late"
+11756,2,Radiation Monitoring
+11757,3,Personnel radiation monitor not issued when required
+11758,2,Postings
+11759,3,Radiation areas not posted with required signs
+11760,2,Reviews
+11761,3,Monthly review of personnel radiation monitor exposures miss./late
+11762,2,Meetings
+11763,3,RSC meeting miss./late
+11764,2,Training
+11765,3,New employee RS training miss./late
+11766,3,Monthly CT sim emergency-off checks miss./late
+11767,3,Monthly CT sim door interlock check miss./late
+11768,3,"Daily conventional sim ""beam-on"" light check miss./late"
+11769,3,Monthly conventional sim emergency-off checks miss./late
+11770,3,Monthly conventional sim door interlock check miss./late
+11771,3,Custom attribute SL 1 (Most Severe)
+11772,3,Custom attribute SL 2
+11773,3,Custom attribute SL 3
+11774,3,Custom attribute SL 4
+11775,3,Custom attribute SL 5 (Least Severe)
+11776,3,Personnel radiation monitor not worn
+11777,3,Personnel radiation monitor not returned to board
+11778,3,Personnel radiation monitor lost
+11779,3,Monthly exchange of personnel radiation monitors miss./late
+11780,3,Quarterly exchange of area radiation monitors miss./late
+11781,3,Occupational dose received in excess of limit
+11782,3,Dose limit exceeded for individual member of public
+11783,3,Declared pregnant woman documentation miss./late
+11784,3,Determination of prior occupational dose miss./late
+11785,3,Custom attribute SL 1 (Most Severe)
+11786,3,Custom attribute SL 2
+11787,3,Custom attribute SL 3
+11788,3,Custom attribute SL 4
+11789,3,Custom attribute SL 5 (Least Severe)
+11790,3,Radiation areas posted with incorrect signs
+11791,3,Access to restricted area not controlled
+11792,3,Notice to workers not posted
+11793,3,Custom attribute SL 1 (Most Severe)
+11794,3,Custom attribute SL 2
+11795,3,Custom attribute SL 3
+11796,3,Custom attribute SL 4
+11797,3,Custom attribute SL 5 (Least Severe)
+11798,3,Monthly review of personnel radiation monitor exposures miss./late
+11799,3,Review of occupational doses > investigational levels miss./late
+11800,3,Quarterly review of area monitor exposure miss./late
+11801,3,Annual review of RS program miss./late
+11802,3,Annual review of ALARA program miss./late
+11803,3,Annual review of QMP miss./late
+11804,3,Custom attribute SL 1 (Most Severe)
+11805,3,Custom attribute SL 2
+11806,3,Custom attribute SL 3
+11807,3,Custom attribute SL 4
+11808,3,Custom attribute SL 5 (Least Severe)
+11809,3,RSC meeting miss./late
+11810,3,Quorum not established at RSC meeting
+11811,3,"RSC meeting conducted, minutes not maintained"
+11812,3,Custom attribute SL 1 (Most Severe)
+11813,3,Custom attribute SL 2
+11814,3,Custom attribute SL 3
+11815,3,Custom attribute SL 4
+11816,3,Custom attribute SL 5 (Least Severe)
+11817,3,New employee RS training miss./late
+11818,3,New employee QMP training miss./late
+11819,3,Locum employee RS training miss./late
+11820,3,Annual refresher RS training miss./late
+11821,3,Annual refresher QMP training miss./late
+11822,3,Custom attribute SL 1 (Most Severe)
+11823,3,Custom attribute SL 2
+11824,3,Custom attribute SL 3
+11825,3,Custom attribute SL 4
+11826,3,Custom attribute SL 5 (Least Severe)
+11827,3,Locum employee RS training miss./late
+11828,3,Annual refresher RS training miss./late
+11829,3,Annual refresher QMP training miss./late
+11830,3,Custom attribute SL 1 (Most Severe)
+11831,3,Custom attribute SL 2
+11832,3,Custom attribute SL 3
+11833,3,Custom attribute SL 4
+11834,3,Custom attribute SL 5 (Least Severe)
+11835,4,Test
+11836,3,Test
+11837,2,Patient Setup
+11838,3,Field note incorr./miss.
+11839,3,Sim note incorr./miss.
+11840,3,ID photo incorr./miss.
+11841,3,Field setup photos incorr./miss.
+11842,3,Custom attribute SL 1 (Most Severe)
+11843,3,Custom attribute SL 2
+11844,3,Custom attribute SL 3
+11845,3,Custom attribute SL 4
+11846,3,Custom attribute SL 5 (Least Severe)
+11847,2,Patient Setup
+11848,3,Field note incorr./miss.
+11849,3,Sim note incorr./miss.
+11850,3,ID photo incorr./miss.
+11851,3,Field setup photos miss./incorr
+11852,3,Custom attribute SL 1 (Most Severe)
+11853,3,Custom attribute SL 2
+11854,3,Custom attribute SL 3
+11855,3,Custom attribute SL 4
+11856,3,Custom attribute SL 5 (Least Severe)
+11857,3,RTT note incorr./miss.
+11858,3,Field note incorr./miss.
+11859,3,Sim note incorr./miss.
+11860,3,Field setup photos incorr./miss.
+11861,3,Custom attribute SL 1 (Most Severe)
+11862,3,Custom attribute SL 2
+11863,3,Custom attribute SL 3
+11864,3,Custom attribute SL 4
+11865,3,Custom attribute SL 5 (Least Severe)
+11866,2,Simulation Notes
+11867,3,CT sim note not completed
+11868,3,Field verification sim note not completed
+11869,3,Tx planning sim note not completed
+11870,3,Special physics consult request not completed
+11871,3,Custom Attribute SL I
+11872,3,Custom attribute I
+11873,3,Custom attribute SL I
+11874,3,Custom attribute SL II
+11875,3,Custom atribute SL 1
+11876,3,Custom attribute SL 2
+11877,3,Custom attribute SL 3
+11878,3,Custom attribute SL 4
+11879,3,Custom attribute SL 5 (Least Severe)
+11880,3,Custom attribute SL 1 (Most Severe)
+11881,3,Custom attribute SL 2
+11882,3,Custom attribute SL 3
+11883,3,Custom attribute SL 4
+11884,3,Custom attribute SL 5 (Least Severe)
+11885,2,Simulation Notes
+11886,3,CT sim note not completed
+11887,3,Field verification sim note not completed
+11888,3,Isocenter verification sim note not completed
+11889,3,Tx planning sim note not completed
+11890,3,Electron boost sim note not completed
+11891,3,Special physics consultation request not completed
+11892,3,Custom attribute SL 1 (Most Severe)
+11893,3,Custom attribute SL 2
+11894,3,Custom attribute SL 3
+11895,3,Custom attribute SL 4
+11896,3,Custom attribute SL 5 (Least Severe)
+11897,3,Initial images visually but not electronically approved
+11898,3,Custom attribute SL 1 (Most Severe)
+11899,3,Custom attribute SL 2
+11900,3,Custom attribute SL 3
+11901,3,Custom attribute SL 4
+11902,3,Custom attribute SL 5 (Least Severe)
+11903,3,Initial images visually but not electronically approved
+11904,3,Tattoos or maks incorr./miss.
+11905,4,Custom attribute SL 1 (Most Severe)
+11906,3,Custom attribute SL 1 (Most Severe)
+11907,4,Custom attribute SL 2
+11908,3,Custom attribute SL 2
+11909,3,Custom attribute SL 3
+11910,3,Custom attribute SL 4
+11911,3,Custom attribute SL 5 (Least Severe)
+11912,3,Tattoos or marks miss./incorr.
+11913,3,Tattoos or marks incorr./miss.
+11914,3,Shifts from CT user origin to CAX incorr./miss.
+11915,3,Shifts from CT user origin to CAX incorr./miss.
+11916,3,Tx appointment late - No RO onsite
+11917,3,Tx appointment cancelled - no RO onsite
+11918,3,Tx appointment late - no RO onsite
+11919,4,Tx appointment cancelled - no RO onsite
+11920,3,Tx appointment cancelled - no RO onsite
+11921,3,Tx without RO onsite
+11922,3,Final chart audits not completed within 30 days
+11923,3,Final chart audits late/miss.
+11924,2,Audits
+11925,3,Final chart audits miss./late
+11926,3,Custom attribute SL 1 (Most Severe)
+11927,3,Custom attribute SL 2
+11928,3,Custom attribute SL 3
+11929,3,Custom attribute SL 4
+11930,3,Custom attribute SL 5 (Least Severe)
+11931,3,Tx appt. late (Medicare) - No RO onsite
+11932,3,Tx appt. cancelled (Medicare) - No RO onsite
+11933,3,Tx (Medicare) without RO onsite
+11934,3,Tx appt. late (non-Medicare) - No MD onsite
+11935,3,Tx appt. cancelled (non-Medicare) - No MD onsite
+11936,1,Patient Prep
+11937,2,Patient Prep
+11938,2,Labs
+11939,2,Orders
+11940,2,Labs
+11941,2,Patient Prep
+11942,3,Order miss.
+11943,3,Ordered study incorr./miss.
+11944,3,Order not signed
+11945,3,Orders do not match on 91 vs. authorization forms
+11946,3,Custom attribute SL1
+11947,3,Custom attribute SL 1 (Most Severe)
+11948,3,Custom attribute SL 2
+11949,3,Order not dated
+11950,3,Wrong study ordered
+11951,3,Order not signed
+11952,3,Order not dated
+11953,3,"Contrast prep intended, not ordered"
+11954,3,Custom attribute SL 1 (Most Severe)
+11955,3,Custom attribute SL 2
+11956,3,Custom attribute SL 3
+11957,3,Custom attribute SL 4
+11958,3,Custom attribute SL 5 (Least Severe)
+11959,3,Oders on 91 form vs authorization form do not match
+11960,3,Orders do not match on 91 form vs auth. form
+11961,3,Custom attribute SL 1 (Most Severe)
+11962,3,Custom attribute SL 2
+11963,3,Custom attribute SL 3
+11964,3,Custom attribute SL 4
+11965,3,Custom attribute SL 5 (Least Severe)
+11966,3,No labs drawn
+11967,3,No labs drawn - BUN/creatinine
+11968,3,"Labs drawn, results not back"
+11969,3,"Labs drawn, results not entered in EMR"
+11970,3,Adnormal lab results not reported
+11971,3,Custom attribute SL 1 (Most Severe)
+11972,3,Custom attribute SL 2
+11973,3,Custom attribute SL 3
+11974,3,Custom attribute SL 4
+11975,3,Custom attribute SL 1 (Most Severe)
+11976,3,Custom attribute SL 5 (Least Severe)
+11977,3,Patient did not take contrast prep (barium)
+11978,3,Contrast prep (barium) not taken
+11979,3,Prep instructions incorr./miss.
+11980,3,Contrast prep (barium) taken at wrong time
+11981,3,Prep diet not followed
+11982,3,Food consumed before scan
+11983,3,Custom attribute SL 1 (Most Severe)
+11984,3,Custom attribute SL 2
+11985,3,Custom attribute SL 3
+11986,3,Custom attribute SL 4
+11987,3,Custom attribute SL 5 (Least Severe)
+11988,3,Region of interest missed
+11989,3,Patient moved during scan
+11990,3,Scan label incorr./miss.
+11991,3,Patient arrives on wrong date
+11992,3,Patient arrives on wrong date/time
+11993,3,Orders do not match on 91 form vs authorization form
+11994,1,PET/CT Simulation
+11995,2,Patient Scan
+11996,2,Images
+11997,2,Laser Alignment System
+11998,2,Patient Setup
+11999,2,Labs
+12000,2,Rx/Orders
+12001,2,Rx/Orders
+12002,2,Labs
+12003,2,Patient Prep
+12004,2,Test
+12005,3,Test
+12006,3,Patient position not flat/straight
+12007,3,Patient position - protocol vs table incorr.
+12008,3,Patient position not flat/straight
+12009,3,Patient registration data incorr./miss.
+12010,3,Scan protocol for region incorr.
+12011,3,"Series (scout, axial, etc.) incorr."
+12012,3,FOV  incorr.
+12013,3,"Patient centering (AP/PA, RL/LL) incorr."
+12014,3,"Scan type (axial, helical) incorr."
+12015,3,Orientation of patient vs. Tx planning computer incorr.
+12016,3,Axial/helical thickness incorr.
+12017,3,Gantry tilt incorr.
+12018,3,"Poor technique factors (kVp, mA)"
+12019,3,Region of interest missed
+12020,3,Patient moved during scan
+12021,3,Scan label incorr./miss.
+12022,3,Custom attribute SL 1 (Most Severe)
+12023,3,Custom attribute SL 2
+12024,3,Custom attribute SL 3
+12025,3,Custom attribute SL 4
+12026,3,Custom attribute SL 5 (Least Severe)
+12027,2,Images
+12028,3,Reconstruction of wrong scan data
+12029,3,"Reconstruction type (soft, bone) incorr."
+12030,3,"Image filter (smooth, edge) incorr."
+12031,3,Matrix size incorr.
+12032,3,Custom attribute SL 1 (Most Severe)
+12033,3,Custom attribute SL 2
+12034,3,Custom attribute SL 3
+12035,3,Custom attribute SL 4
+12036,3,Custom attribute SL 5 (Least Severe)
+12037,2,Laser Alignment System
+12038,3,Lasers Z1-Z3 not at isocenter
+12039,3,Z1-Z3 alignment error > 1 mm
+12040,3,CT and laser 0 not equal
+12041,3,Fudicials vs laser marks > 1mm
+12042,3,Custom attribute SL 1 (Most Severe)
+12043,3,Custom Attribute SL 2
+12044,3,Custom Attribute SL 3
+12045,3,Custom Attribute SL 4
+12046,3,Custom attribute SL 5 (Least Severe)
+12047,2,Patient Setup
+12048,3,Field note incorr./miss.
+12049,3,Dose coefficients for Tx fields incorr./miss.
+12050,3,ID photo incorr./miss.
+12051,3,Field setup photos incorr./miss.
+12052,3,Tattoos or maks incorr./miss.
+12053,3,Custom attribute SL 1 (Most Severe)
+12054,3,Custom attribute SL 2
+12055,3,Custom attribute SL 3
+12056,3,Custom attribute SL 4
+12057,3,Custom attribute SL 5 (Least Severe)
+12058,2,Rx/Orders
+12059,3,Order miss.
+12060,3,Wrong study ordered
+12061,3,Order not signed
+12062,3,Rx/order not dated
+12063,3,Rx/order miss.
+12064,3,Wrong study ordered
+12065,3,Rx/order not signed
+12066,3,Rx/order not dated
+12067,4,Orders do not match on 91 form vs authorization form
+12068,3,Orders do not match on 91 form vs authorization form
+12069,3,Custom attribute SL 1 (Most Severe)
+12070,3,Custom attribute SL 2
+12071,3,Custom attribute SL 3
+12072,3,Custom attribute SL 4
+12073,3,Custom attribute SL 5 (Least Severe)
+12074,2,No labs drawn - BUN/creatinine
+12075,2,Labs
+12076,3,No labs drawn - BUN/creatinine
+12077,3,"Labs drawn, results not back"
+12078,3,"Labs drawn, results not entered in EMR"
+12079,3,Adnormal lab results not reported
+12080,3,Custom attribute SL 1 (Most Severe)
+12081,3,Custom attribute SL 2
+12082,3,Custom attribute SL 3
+12083,3,Custom attribute SL 4
+12084,3,Custom attribute SL 5 (Least Severe)
+12085,2,Patient Prep
+12086,3,Contrast prep (barium) not taken
+12087,3,Prep instructions incorr./miss.
+12088,3,Contrast prep (barium) taken at wrong time
+12089,3,Prep diet not followed
+12090,3,Food consumed before scan
+12091,3,Custom attribute SL 1 (Most Severe)
+12092,3,Custom attribute SL 2
+12093,3,Custom attribute SL 3
+12094,3,Custom attribute SL 4
+12095,3,Custom attribute SL 5 (Least Severe)
+12096,1,PET/CT Simulation
+12097,2,Patient Scan
+12098,2,Images
+12099,2,Laser Alignment System
+1210,3,Prescription site
+12100,2,Patient Setup
+12101,3,Patient position not flat/straight
+12102,3,Patient position - protocol vs table incorr.
+12103,3,Patient position not flat/straight
+12104,3,Patient registration data incorr./miss.
+12105,3,Scan protocol for region incorr.
+12106,3,"Series (scout, axial, etc.) incorr."
+12107,3,FOV  incorr.
+12108,3,"Patient centering (AP/PA, RL/LL) incorr."
+12109,3,"Scan type (axial, helical) incorr."
+1211,3,Field name
+12110,3,Orientation of patient vs. Tx planning computer incorr.
+12111,3,Axial/helical thickness incorr.
+12112,3,Gantry tilt incorr.
+12113,3,"Poor technique factors (kVp, mA)"
+12114,3,Region of interest missed
+12115,3,Patient moved during scan
+12116,3,Scan label incorr./miss.
+12117,3,Custom attribute SL 1 (Most Severe)
+12118,3,Custom attribute SL 2
+12119,3,Custom attribute SL 3
+1212,3,Machine
+12120,3,Custom attribute SL 4
+12121,3,Custom attribute SL 5 (Least Severe)
+12122,3,Reconstruction of wrong scan data
+12123,3,"Reconstruction type (soft, bone) incorr."
+12124,3,"Image filter (smooth, edge) incorr."
+12125,3,Matrix size incorr.
+12126,3,Custom attribute SL 1 (Most Severe)
+12127,3,Custom attribute SL 2
+12128,3,Custom attribute SL 3
+12129,3,Custom attribute SL 4
+1213,3,Type
+12130,3,Custom attribute SL 5 (Least Severe)
+12131,3,Lasers Z1-Z3 not at isocenter
+12132,3,Z1-Z3 alignment error > 1 mm
+12133,3,"CT and laser ""0"" not equal"
+12134,3,Fudicials vs laser marks > 1mm
+12135,3,Custom attribute SL 1 (Most Severe)
+12136,3,Custom attribute SL 2
+12137,3,Custom attribute SL 3
+12138,3,Custom attribute SL 4
+12139,3,Custom attribute SL 5 (Least Severe)
+1214,3,Modality
+12140,3,"Patient centering (AP/PA, RL/LL) incorr."
+12141,3,"Scan type (axial, helical) incorr."
+12142,3,Orientation of patient vs. Tx planning  computer incorr.
+12143,3,Axial/helical thickness incorr.
+12144,3,Gantry tilt incorr.
+12145,3,Custom attribute SL 1 (Most Severe)
+12146,3,Custom attribute SL 2
+12147,3,Custom attribute SL 3
+12148,3,Custom attribute SL 4
+12149,3,Custom attribute SL 5 (Least Severe)
+1215,3,Energy
+12150,3,Sim note incorr./miss.
+12151,3,Field note incorr./miss.
+12152,3,ID photo incorr./miss.
+12153,3,Sim note incorr./miss.
+12154,3,ID photo incorr./miss.
+12155,3,Field setup photos incorr./miss.
+12156,3,Tattoos or marks incorr./miss.
+12157,3,Custom attribute SL 1 (Most Severe)
+12158,3,Custom attribute SL 2
+12159,3,Custom attribute SL 3
+1216,3,MU
+12160,3,Custom attribute SL 4
+12161,3,Custom attribute SL 5 (Least Severe)
+12162,2,Test
+12163,2,Home Care/Residence
+12164,3,Facility/hospice incorr./miss.
+12165,3,Phone incorr./miss.
+12166,3,Contact nurse incorr./miss.
+12167,3,Contact social worker incorr./miss.
+12168,3,Custom attribute SL 1 (Most Severe)
+12169,3,Custom attribute SL 2
+1217,3,Dose > 3%
+12170,3,Custom attribute SL 3
+12171,3,Custom attribute SL 4
+12172,3,Custom attribute SL 5 (Least Severe)
+12173,3,Custom attribute SL 1 (Most Severe)
+12174,3,Custom attribute SL 2
+12175,3,Custom attribute SL 3
+12176,3,Custom attribute SL 4
+12177,3,Custom attribute SL 5 (Least Severe)
+12178,3,Custom attribute SL 1 (Most Severe)
+12179,3,Custom attribute SL 2
+1218,3,Dose < 3%
+12180,3,Custom attribute SL 3
+12181,3,Custom attribute SL 4
+12182,3,Custom attribute SL 5 (Least Severe)
+12183,3,"Lasers X, Y, Z offset (laser to scan plane) not correct"
+12184,3,X-Z alignment error > 1.5 mm
+12185,3,CT and laser ?0? not equal
+12186,3,CT and laser 0 not equal
+12187,3,Fudicials vs laser marks > 1.5mm
+12188,4,Custom attribute SL 1 (Most Severe)
+12189,3,Custom attribute SL 1 (Most Severe)
+1219,3,Incorrect wedge angle
+12190,3,Custom attribute SL 2
+12191,3,Custom attribute SL 3
+12192,3,Custom attribute SL 4
+12193,3,Custom attribute SL 5 (Least Severe)
+12194,3,Order miss.
+12195,3,Wrong anatomy
+12196,3,Order not approved
+12197,3,Order not dated
+12198,3,Custom attribute SL 1 (Most Severe)
+12199,3,Custom attribute SL 2
+1220,3,Incorrect wedge orientation
+12200,3,Custom attribute SL 3
+12201,3,Custom attribute SL 4
+12202,3,Custom attribute SL 5 (Least Severe)
+12203,3,Prep not taken
+12204,3,Prep instructions incorr./miss.
+12205,3,Enema prep taken at wrong time/miss.
+12206,3,Prep diet not followed
+12207,3,Food consumed before scan
+12208,3,Custom attribute SL1 (Most Severe)
+12209,3,Custom attribute SL 2
+1221,3,"No wedge specified, wedge in plan"
+12210,3,Custom attribute SL 3
+12211,3,Custom attribute SL 4
+12212,3,Custom attribute SL 5 (Least Severe)
+12213,3,PET/MRI/CT image fusion incorr.
+12214,3,Photon or electron algorithm used incorr.
+12215,3,Plan not approved
+12216,3,Tx not approved
+12217,3,DRRs incorr./miss.
+12218,3,Shifts from CT user origin to CAX incorr./miss.
+12219,3,Custom attribute SL1 (Most Severe)
+1222,3,Incorrect compensator
+12220,3,Custom attribute SL 2
+12221,3,Custom attribute SL 3
+12222,3,Custom attribute SL 4
+12223,3,Custom attribute SL 5 (Least Severe)
+12224,3,Field size incorr./miss.
+12225,3,Dose calc. not signed/approved
+12226,3,Custom attribute SL1 (Most Severe)
+12227,3,Custom attribute SL 2
+12228,3,Custom attribute SL 3
+12229,3,Custom attribute SL 4
+1223,3,"No comp specified, comp in plan"
+12230,3,Custom attribute SL 5 (Least Severe)
+12231,3,Pb cutouts cur incurr.
+12232,3,Custom attribute SL 1 (Most Severe)
+12233,3,Custom attribute SL 2
+12234,3,Custom attribute SL 3
+12235,3,Custom attribute SL 4
+12236,3,Custom attribute SL 5 (Least Severe)
+12237,3,Pb cutouts cut incorr.
+12238,3,Custom attribute SL 1 (Most Severe)
+12239,3,Custom attribute SL 2
+1224,3,Incorrect block entered
+12240,3,Custom attribute SL 3
+12241,3,Custom attribute SL 4
+12242,3,Custom attribute SL 5 (Least Severe)
+12243,3,Custom attribute SL 1 (Most Severe)
+12244,3,Custom attribute SL 2
+12245,3,Custom attribute SL 3
+12246,3,Custom attribute SL 4
+12247,3,Custom attribute SL 5 (Least Severe)
+12248,3,Course incorr./miss.
+12249,3,Tx site incorr./miss.
+1225,3,No block specified; blocks in plan
+12250,3,Technique incorr./miss.
+12251,3,Energy and modality (photons or electrons) incorr./miss.
+12252,3,Dose spec incorr./miss.
+12253,3,Rx depth incorr./miss.
+12254,3,Total dose incorr./miss.
+12255,3,Dose /frac incorr./miss.
+12256,3,Total cumulative dose incorr./miss.
+12257,3,Total fractions incorr./miss.
+12258,3,Fractionation pattern (fx/day) incorr./miss.
+12259,3,Pattern (fx/wk.) incorr./miss.
+1226,3,Incorrect bolus entered
+12260,3,"Comment (field nos., beam modifiers) incorr./miss"
+12261,3,Electronic approval before 1st  fx miss.
+12262,3,Custom attribute SL1 (Most Severe)
+12263,3,Custom attribute SL2
+12264,3,Custom attribute SL3
+12265,3,Custom attribute SL4
+12266,3,Custom attribute SL5 (Least Severe)
+12267,3,Field order/type incorr./miss.
+12268,3,Custom attribute SL 1 (Most Severe)
+12269,3,Custom attribute SL 2
+1227,3,No bolus entered; bolus in plan
+12270,3,Custom attribute SL 3
+12271,3,Custom attribute SL 4
+12272,3,Custom attribute SL 5 (Least Severe)
+12273,3,Critical dose action points or limits incorr./miss.
+12274,3,Custom attribute SL 1 (Most Severe)
+12275,3,Custom attribute SL 2
+12276,3,Custom attribute SL 3
+12277,3,Custom attribute SL 4
+12278,3,Custom attribute SL 5 (Least Severe)
+12279,3,Outside progress notes incorr./miss.
+1228,3,Incorrect TSD
+12280,3,Outside diagnostic imaging report(s) incorr./miss.
+12281,3,Signed consent forms not present
+12282,3,Patient Self Determination Act (PSDA) info not given
+12283,3,"PSDA info given, date not recorded"
+12284,3,Financial estimate form not present
+12285,3,Authorization to release records not completed
+12286,3,HIPAA consent not signed/miss.
+12287,3,Initial consultation note not completed
+12288,3,IMRT planning note incorr./miss.
+12289,3,2D/3D planning note incorr./miss.
+1229,3,Incorrect gantry angle
+12290,3,Electron planning note miss./incorr.
+12291,3,Custom attribute SL 1 (Most Severe)
+12292,3,Custom attribute SL 2
+12293,3,Custom attribute SL 3
+12294,3,Custom attribute SL 4
+12295,3,Custom attribute SL 5 (Least Severe)
+12296,3,Signed pregnancy questionnaire miss./late
+12297,3,Pregnancy test results not present
+12298,3,Pathology report not present
+12299,3,Custom attribute SL1 (Most Severe)
+1230,3,Incorrect collimator angle
+12300,3,Custom attribute SL2
+12301,3,Custom attribute SL 3
+12302,3,Custom attribute SL 4
+12303,3,Custom attribute SL 5 (Least Severe)
+12304,3,CT sim note not completed
+12305,3,Clinical Tx planning sim note not completed
+12306,3,Special physics consult request not completed
+12307,3,Custom attribute SL 1 (Most Severe)
+12308,3,Custom attribute SL 2
+12309,3,Custom attribute SL 3
+1231,3,Incorrect field size
+12310,3,Custom attribute SL 4
+12311,3,Custom attribute SL 5 (Least Severe)
+12312,2,Diagnostic CT Reports
+12313,3,Dictation incorr./miss.
+12314,3,Dictation not timely
+12315,3,Final examination report miss.
+12316,3,Final examination report not timely
+12317,3,Final examination report info incorr./miss.
+12318,3,Custom attribute SL1 (Most Severe)
+12319,3,Custom attribute SL 2
+1232,3,Incorrect asymmetric jaw
+12320,3,Custom attribute SL 3
+12321,3,Custom attribute SL 4
+12322,3,Custom attribute SL 5 (Least Severe)
+12323,3,No approval before applying initial shifts
+12324,3,Patient marked incorrectly after applying initial shifts
+12325,3,Wrong initial shifts applied
+12326,3,Initial shifts not recorded
+12327,3,Daily/weekly images not acquired
+12328,3,Daily/weekly images not approved
+12329,3,Custom attribute SL 1 (Most Severe)
+1233,3,Incorrect couch vertical
+12330,3,Custom attribute SL 2
+12331,3,Custom attribute SL 3
+12332,3,Custom attribute SL 4
+12333,3,Custom attribute SL 5 (Least Severe)
+12334,3,Field setup photos incorr./miss.
+12335,3,Initial Tx field SSDs incorr./miss.
+12336,3,Initial setup field SDDs incorr./miss.
+12337,3,Failure to hide unused plan/Tx fields in R&V
+12338,3,Custom attribute SL 1 (Most Severe)
+12339,3,Custom attribute SL 2
+1234,3,Incorrect couch angle
+12340,3,Custom attribute SL 3
+12341,3,Custom attribute SL 4
+12342,3,Custom attribute SL 5 (Least Severe)
+12343,1,Diagnostic CT
+12344,2,Patient Scan
+12345,3,Patient position not flat/straight
+12346,3,Patient position - protocol vs table incorr.
+12347,3,Patient registration data incorr./miss.
+12348,3,Scan protocol for region incorr.
+12349,3,"Series (scout, axial, etc.) incorr"
+12350,3,FOV  incorr
+12351,3,"Patient centering (AP/PA, RL/LL) incorr."
+12352,3,"Scan type (axial, helical) incorr."
+12353,3,Orientation of patient incorr.
+12354,3,Axial/helical thickness incorr.
+12355,3,Gantry tilt incorr.
+12356,3,"Poor technique factors (kVp, mA)"
+12357,3,Region of interest missed
+12358,3,Patient moved during scan
+12359,3,Wrong type of contrast administered
+12360,3,Wrong amount of contrast administered
+12361,3,Wrong route of contrast administration
+12362,3,Patient adverse reaction from contrast
+12363,3,Timing of bolus incorr.
+12364,3,Scan label incorr./miss.
+12365,3,DLP not recorded
+12366,3,CTDIvol measurement not documented
+12367,3,CTDIvol measurement > than ACR max CTDIvol
+12368,3,Custom attribute SL1 (Most Severe)
+12369,3,Custom attribute SL2
+12370,3,Custom attribute SL3
+12371,3,Custom attribute SL4
+12372,3,Custom attribute SL5 (Least Severe)
+12373,2,Images
+12374,3,Reconstruction of wrong scan data
+12375,3,"Reconstruction type (soft, bone) incorr."
+12376,3,"Image filter (smooth, edge) incorr."
+12377,3,Matrix size incorr.
+12378,3,Image series not sent to PACS
+12379,3,Custom attribute SL1 (Most Severe)
+12380,3,Custom attribute SL2
+12381,3,Custom attribute SL3
+12382,3,Custom attribute SL4
+12383,3,Custom attribute SL5 (Least Severe)
+12384,2,Gantry Lasers
+12385,3,Laser alignment error > 2.0 mm
+12386,3,CT and laser ?0? not equal
+12387,3,Custom attribute SL1 (Most Severe)
+12388,3,Custom attribute SL2
+12389,3,Custom attribute SL3
+12390,3,Custom attribute SL4
+12391,3,Custom attribute SL5 (Least Severe)
+12392,2,Patient Setup
+12393,3,ID photo incorr./miss.
+12394,3,Custom attribute SL1 (Most Severe)
+12395,3,Custom attribute SL2
+12396,3,Custom attribute SL3
+12397,3,Custom attribute SL4
+12398,3,Custom attribute SL5 (Least Severe)
+12399,2,Orders
+1240,3,Custom Attribute
+12400,3,Order miss.
+12401,3,Wrong exam
+12402,3,Order not approved
+12403,3,Order not dated
+12404,3,Orders vs insur. authoriz. form do not match
+12405,3,Pregnancy test not ordered
+12406,3,Custom attribute SL1 (Most Severe)
+12407,3,Custom attribute SL2
+12408,3,Custom attribute SL3
+12409,3,Custom attribute SL4
+12410,3,Custom attribute SL5 (Least Severe)
+12411,2,Labs
+12412,3,No labs drawn ? BUN/creatinine
+12413,3,"Pregnancy test ordered, results not back"
+12414,3,"Labs drawn, results not back"
+12415,3,"Labs drawn, results not in EMR"
+12416,3,Abnormal lab results not reported
+12417,3,Custom attribute SL1 (Most Severe)
+12418,3,Custom attribute SL2
+12419,3,Custom attribute SL3
+12420,3,Custom attribute SL4
+12421,3,Custom attribute SL5 (Least Severe)
+12422,2,Patient Prep
+12423,3,Prep Not Taken
+12424,3,Prep instructions incorr./miss.
+12425,3,Food consumed before scan
+12426,3,Patient not hydrated before scan
+12427,3,Custom attribute SL1 (Most Severe)
+12428,3,Custom attribute SL2
+12429,3,Custom attribute SL3
+12430,3,Custom attribute SL4
+12431,3,Custom attribute SL5 (Least Severe)
+12432,3,CT door interlock inoperable
+12433,3,CT ?beam-on? light inoperable
+12434,3,CT gantry lasers inoperable
+12435,3,CT fixed/moveable lasers inoperable
+12436,3,CT emergency-off switches inoperable
+12437,3,Custom attribute SL 1 (Most Severe)
+12438,3,Custom attribute SL 2
+12439,3,Custom attribute SL 3
+12440,3,Custom attribute SL 4
+12441,3,Custom attribute SL 5 (Least Severe)
+12442,2,Diag CT/CT Simulator
+12443,3,"Daily CT sim ""beam-on"" light check miss./late"
+12444,3,Monthly CT sim emergency-off checks miss./late
+12445,3,Daily CT ?beam-on? light check miss./late
+12446,3,Monthly CT emergency-off checks miss./late
+12447,3,Monthly CT door interlock check miss./late
+12448,3,Custom attribute SL 1 (Most Severe)
+12449,3,Custom attribute SL 2
+12450,3,Custom attribute SL 3
+12451,3,Custom attribute SL 4
+12452,3,Custom attribute SL 5 (Least Severe)
+12453,3,Monthly/qrterly exchange of personnel radiation monitors miss./late
+12454,3,Qtrly./monthly exchg. of personnel radiation monitors miss./late
+12455,3,Quarterly exchange of area radiation monitors miss./late
+12456,3,Occupational dose received in excess of limit
+12457,3,Dose limit exceeded for individual member of public
+12458,3,Declared pregnant woman documentation miss./late
+12459,3,Determination of prior occupational dose miss./late
+12460,3,Declared pregnant woman documentation miss./late
+12461,3,Custom attribute SL 1 (Most Severe)
+12462,3,Custom attribute SL 2
+12463,3,Custom attribute SL 3
+12464,3,Custom attribute SL 4
+12465,3,Custom attribute SL 5 (Least Severe)
+12466,3,Review of occupational doses > investigational levels miss./late
+12467,3,Qtry./mon. review of personnel radiation monitor exposures miss./late
+12468,3,Qtry./mon. review of personnel rad. monitor exposures miss./late
+12469,3,Review of occupational doses > investigational levels miss./late
+12470,3,Quarterly review of area monitor exposure miss./late
+12471,3,Custom attribute SL 1 (Most Severe)
+12472,3,Custom attribute SL 2
+12473,3,Custom attribute SL 3
+12474,3,Custom attribute SL 4
+12475,3,Custom attribute SL 5 (Least Severe)
+12476,3,Daily EDW check miss./late
+12477,3,Daily imaging checks miss./late
+12478,3,Weekly linac warm-up printout miss./late
+12479,3,Weekly MLC checks miss./late
+12480,3,Monthly linac mechanical checks miss./late
+12481,3,Monthly linac energy constancy miss./late
+12482,3,Monthly linac light vs radiation field coincidence checks miss./late
+12483,3,Monthly linac flatness and symmetry constancy miss./late
+12484,3,Monthly imaging checks miss./late
+12485,3,Annual linac calibration miss./late
+12486,3,Annual TLD output & energy checks miss./late
+12487,3,Five-year linac re-commissioning miss./late
+12488,3,Full linac calibration not performed when monthly output differs by > 5%
+12489,3,"Linac measurement exceeding tolerance, no action taken"
+12490,3,Periodic PMIs miss./late
+12491,3,Field service reports miss./late
+12492,3,Custom attribute SL 1 (Most Severe)
+12493,3,Custom attribute SL 2
+12494,3,Custom attribute SL 3
+12495,3,Custom attribute SL 4
+12496,3,Custom attribute SL 5 (Least Severe)
+12497,3,"CT sim measurement exceeding tolerance, no action taken"
+12498,3,Custom attribute SL 1 (Most Severe)
+12499,3,Custom attribute SL 2
+12500,3,Custom attribute SL 3
+12501,3,Custom attribute SL 4
+12502,3,Custom attribute SL 5 (Least Severe)
+12503,3,Annual thermometer intercomparison miss./late
+12504,3,Annual barometer intercomparison miss./late
+12505,3,Monthly block cutter checks miss./late
+12506,3,Custom attribute SL 1 (Most Severe)
+12507,3,Custom attribute SL 2
+12508,3,Custom attribute SL 3
+12509,3,Custom attribute SL 4
+12510,3,Custom attribute SL 5 (Least Severe)
+12511,3,Annual end-to-end testing of Tx delivery process miss./late
+12512,3,Custom attribute SL 1 (Most Severe)
+12513,3,Custom attribute SL 2
+12514,3,Custom attribute SL 3
+12515,3,Custom attribute SL 4
+12516,3,Custom attribute SL 5 (Least Severe)
+12517,3,Patient QA fluence and dose measurements not performed timely
+12518,3,Patient QA fluence and dose measurements not performed before Tx
+12519,3,"Patient QA fluence and dose measurements exceeding tolerance, no action taken"
+12520,3,Patient QA verification plan status not changed to completed
+12521,3,Custom attribute SL 1 (Most Severe)
+12522,3,Custom attribute SL 2
+12523,3,Custom attribute SL 3
+12524,3,Custom attribute SL 4
+12525,3,Custom attribute SL 5 (Least Severe)
+12526,3,Therapist new start shift sheet incorr./miss.
+12527,3,Initial therapist chart check miss./late
+12528,3,Initial physics chart check miss./late
+12529,3,Independent dose calc check miss./late
+12530,3,Weekly therapists chart checks miss./late
+12531,3,Weekly physics chart checks miss./late
+12532,3,Final physics chart check miss./late
+12533,3,Physics sign-off/approval of QA checks miss./late
+12534,3,Physics sign-off/approval of linac fault log miss./late
+12535,3,Physics sign-off/approval of field service reports miss./late
+12536,3,Visual configuration check of new blocks miss./late
+12537,3,"Check/test exceeding tolerance, no action taken"
+12538,3,Custom attribute SL 1 (Most Severe)
+12539,3,Custom attribute SL 2
+12540,3,Custom attribute SL 3
+12541,3,Custom attribute SL 4
+12542,3,Custom attribute SL 5 (Least Severe)
+12543,3,New employee QA/machine/EMR training miss./late
+12544,3,Locum employee QA/machine/EMR training miss./late
+12545,3,Annual refresher QA training miss./late
+12546,3,Custom attribute SL 1 (Most Severe)
+12547,3,Custom attribute SL 2
+12548,3,Custom attribute SL 3
+12549,3,Custom attribute SL 4
+12550,3,Custom attribute SL 5 (Least Severe)
+12551,3,"RO QIC meeting conducted, minutes not maintained"
+12552,3,Quarterly RO QIC meeting miss./late
+12553,3,Quorum not established at RO QIC meeting
+12554,3,"RO QIC meeting conducted, minutes not maintained"
+12555,3,Quarterly CT QAC meeting miss./late
+12556,3,Quorum not established at CT QAC meeting
+12557,3,"CT QAC meeting conducted, minutes not maintained"
+12558,3,Annual billing compliance meeting miss./late
+12559,3,Quorum not established at billing compliance meeting
+12560,3,"Billing compliance meeting conducted, minutes not maint."
+12561,3,"Billing compliance meeting conducted, minutes not maintained"
+12562,3,Custom attribute SL 1 (Most Severe)
+12563,3,Custom attribute SL 2
+12564,3,Custom attribute SL 3
+12565,3,Custom attribute SL 4
+12566,3,Custom attribute SL 5 (Least Severe)
+12567,2,Diagnostic CT
+12568,3,Daily CT phantom checks miss./late
+12569,3,Daily CT laser checks miss./late
+12570,3,Monthly CT phantom checks miss./late
+12571,3,Annual CT survey miss./late
+12572,3,"CT measurement exceeding tolerance, no action taken"
+12573,3,Custom attribute SL 1 (Most Severe)
+12574,3,Custom attribute SL 2
+12575,3,Custom attribute SL 3
+12576,3,Custom attribute SL 4
+12577,3,Custom attribute SL 5 (Least Severe)
+12578,1,Billing
+12579,2,Codes
+12580,3,Patient incorr./miss.
+12581,2,Date of charge incorr./miss.
+12582,2,Description incorr./miss.
+12583,2,CPT code incorr./miss.
+12584,2,CPT code modifier incorr./miss.
+12585,2,No. of charges incorr./miss.
+12586,2,Diagnosis (ICD) code(s) incorr./miss.
+12587,2,Attending physician incorr./miss.
+12588,2,Department where code billed incorr./miss.
+12589,2,Facility where procedure billed incorr./miss.
+12590,2,Professional component posted incorr./miss.
+12591,2,Technical component posted incorr./miss.
+12592,2,Insurer authorization info. incorr./miss.
+12593,2,Insurer authorization no. incorr./miss.
+12594,2,Type of procedure/supply incorr./miss.
+12595,3,Patient incorr./miss.
+12596,3,Date of charge incorr./miss.
+12597,3,Description incorr./miss.
+12598,3,CPT code incorr./miss.
+12599,3,CPT code modifier incorr./miss.
+12600,3,No. of charges incorr./miss.
+12601,3,No. of charges incorr./miss.
+12602,3,Diagnosis (ICD) code(s) incorr./miss.
+12603,3,Attending physician incorr./miss.
+12604,3,Department where code billed incorr./miss.
+12605,3,Department where code billed incorr./miss.
+12606,3,Facility where procedure billed incorr./miss.
+12607,3,Professional component posted incorr./miss.
+12608,3,Technical component posted incorr./miss.
+12609,3,Insurer authorization info. incorr./miss.
+12610,3,Insurer authorization no. incorr./miss.
+12611,3,Insurer authorization no. incorr./miss.
+12612,3,Type of procedure/supply incorr./miss.
+12613,3,Custom attribute SL1 (Most Severe)
+12614,3,Custom attribute SL2
+12615,3,Custom attribute SL3
+12616,3,Custom attribute SL4
+12617,3,Custom attribute SL5 (Least Severe)
+12618,3,Patient arrives on wrong date/time
+12619,3,Custom attribute SL 1 (Most Severe)
+12620,3,Custom attribute SL 2
+12621,3,Custom attribute SL 3
+12622,3,Custom attribute SL 4
+12623,3,Custom attribute SL 5 (Least Severe)
+12624,3,PET/MRI/CT image fusion incorr.
+12625,3,Plan not approved
+12626,3,Tx not approved
+12627,3,Custom attribute SL 1 (Most Severe)
+12628,3,Custom attribute SL 2
+12629,3,Custom attribute SL 3
+12630,3,Custom attribute SL 4
+12631,3,Custom attribute SL 5 (Least Severe)
+12632,3,Dose calc. not signed/approved
+12633,3,Custom attribute SL 1 (Most Severe)
+12634,3,Custom attribute SL 2
+12635,3,Custom attribute SL 3
+12636,3,Custom attribute SL 4
+12637,3,Custom attribute SL 5 (Least Severe)
+12638,3,Tx appt. late (Medicare) ? No RO onsite
+12639,3,Tx appt. cancelled (Medicare) ? No RO onsite
+12640,3,Tx appt. late (non-Medicare) ? No RO onsite
+12641,3,Tx appt. cancelled (non-Medicare) ? No RO onsite
+12642,3,Custom attribute SL 1 (Most Severe)
+12643,3,Custom attribute SL 2
+12644,3,Custom attribute SL 3
+12645,3,Custom attribute SL 4
+12646,3,Custom attribute SL 5 (Least Severe)
+12647,2,Plan Scheduling/Tx Calendar
+12648,3,Scheduled plan/set of Tx fields incorr.
+12649,3,No. of Tx sessions for schedule set incorr.
+12650,3,Session/day - QD/BID/TID incorr.
+12651,3,Pattern - daily/weekly/bi-weekly incorr.
+12652,3,Starting date incorr.
+12653,3,Ending date incorr.
+12654,3,Tx calendar entries not saved/approved
+12655,3,Custom attribute SL 2
+12656,3,Custom attribute SL 1 (Most Severe)
+12657,3,Custom attribute SL 2
+12658,3,Custom attribute SL 3
+12659,3,Custom attribute SL 4
+12660,3,Custom attribute SL 5 (Least Severe)
+12661,2,Plan Parameters/Tx Fld Definitions
+12662,3,Field no. incorr./miss
+12663,3,Field name incorr./miss.
+12664,3,Dose incorr./miss.
+12665,3,Machine incorr./miss.
+12666,3,Field order/type incorr./miss.
+12667,3,Modality (photons or electrons) incorr./miss.
+12668,3,Energy incorr./miss.
+12669,3,MU incorr./miss.
+12670,3,Time incorr./miss.
+12671,3,Dose rate incorr./miss.
+12672,3,Fixed wedge angle incorr.
+12673,3,Fixed wedge orientation incorr.
+12674,3,"No fixed wedge specified, fixed wedge in plan"
+12675,3,EDW angle incorr
+12676,3,EDW angle incorr.
+12677,3,EDW wedge orientation incorr.
+12678,3,"No EDW specified, EDW in plan"
+12679,3,Compensator incorr.
+12680,3,"No comp specified, comp in plan"
+12681,3,Block entered incorr.
+12682,3,"No block specified, blocks in plan"
+12683,3,Bolus entered incorr.
+12684,3,"No bolus entered, bolus in plan"
+12685,3,Pb cutout not indicated
+12686,3,TSD incorr./miss.
+12687,3,Gantry angle incorr./miss.
+12688,3,Collimator angle incorr./miss.
+12689,3,Field size incorr./miss.
+12690,3,Asymmetric jaw incorr./miss.
+12691,3,MLC incorr./miss.
+12692,3,Couch vertical incorr.
+12693,3,Couch angle incorr.
+12694,3,Couch lat./long. incorr.
+12695,3,Couch anglel incorr.
+12696,3,Custom attribute SL 1 (Most Severe)
+12697,3,Custom attribute SL 2
+12698,3,Custom attribute SL 3
+12699,3,Custom attribute SL 4
+12700,3,Custom attribute SL 5 (Least Severe)
+12701,3,Couch angle incorr.
+12702,3,Tolerance incorr./miss.
+12703,3,Custom attribute SL 1 (Most Severe)
+12704,4,Custom attribute SL 2
+12705,3,Custom attribute SL 2
+12706,3,Custom attribute SL 3
+12707,3,Custom attribute SL 4
+12708,3,Custom attribute SL 5 (Least Severe)
+12709,2,Reference Points/Dose Tracking
+12710,3,Dose coefficients for Tx fields incorr./miss.
+12711,3,Dose coefficients for secondary sites incorr./miss.
+12712,3,Critical dose action points or limits incorr./miss.
+12713,3,Custom attribute SL1 (Most Severe)
+12714,3,Custom attribute SL2
+12715,3,Custom attribute SL3
+12716,3,Custom attribute SL4
+12717,3,Custom attribute SL5 (Least Severe)
+12718,2,Daily Treatment Record
+12719,3,Elapsed days incorr.
+12720,3,Fraction no. incorr.
+12721,3,Unapproved over-rides
+12722,3,Failure to acknowledge dose action points
+12723,3,Failure to acknowledge pre-Tx warnings
+12724,3,Failure to acknowledge dose and fx warnings
+12725,3,Failure to acknowledge dose/ fx warnings
+12726,3,Failure to acknowledge Tx machine mismatch
+12727,3,Failure to acknowledge post-Tx messages
+12728,3,Failure to hide unused Tx fields in R&V
+12729,3,Failure to approve initial Tx fields
+12730,3,Daily dose incorr. recorded
+12731,3,Daily dose not recorded
+12732,3,Cum. dose incorr./not recorded
+12733,3,Portal images not recorded
+12734,3,Comments not filled out
+12735,3,Failure to log in 2nd treating therapist
+12736,3,Custom attribute SL1 (Most Severe)
+12737,3,Custom attribute SL2
+12738,3,Custom attribute SL3
+12739,3,Custom attribute SL4
+12740,3,Custom attribute SL5 (Least Severe)
+12741,2,Patient Docs/Notes
+12742,3,Outside progress notes incorr./miss.
+12743,3,Outside diagnostic imaging report(s) incorr./miss.
+12744,3,Signed consent forms not present
+12745,3,Patient Self Determination Act (PSDA) info not given
+12746,3,"PSDA info given, date not recorded"
+12747,3,"PSDA info given, date not recorded"
+12748,3,Financial estimate form not present
+12749,3,Authorization to release records not completed
+12750,3,HIPAA consent not signed/miss.
+12751,3,Initial consultation note not completed
+12752,3,IMRT planning note incorr./miss.
+12753,3,Signed pregnacy questionnaire miss./late
+12754,3,Pregnancy test results not present
+12755,3,Pathology report not present
+12756,3,Custom attribute SL1 (Most Severe)
+12757,3,Custom attribute SL2
+12758,3,Custom attribute SL3
+12759,3,Custom attribute SL4
+12760,3,Custom attribute SL5 (Least Severe)
+12761,3,Outside progress notes incorr./miss.
+12762,3,Outside diagnostic imaging report(s) incorr./miss.
+12763,3,Signed consent forms not present
+12764,3,Patient Self Determination Act (PSDA) info not given
+12765,3,"PSDA info given, date not recorded"
+12766,3,Financial estimate form not present
+12767,3,Authorization to release records not completed
+12768,3,HIPAA consent not signed/miss.
+12769,3,Initial consultation note not completed
+12770,3,IMRT planning note incorr./miss.
+12771,3,2D/3D planning note incorr./miss.
+12772,3,Electron planning note incorr./miss.
+12773,3,Signed pregnacy questionnaire miss./late
+12774,3,Pregnancy test results not present
+12775,3,Pathology report not present
+12776,3,Custom attribute SL1 (Most Severe)
+12777,3,Custom attribute SL2
+12778,3,Custom attribute SL3
+12779,3,Custom attribute SL4
+12780,3,Custom attribute SL5 (Least Severe)
+12781,3,Clinical Tx planning sim note not completed
+12782,3,Special physics consult request not completed
+12783,3,Custom attribute SL1 (Most Severe)
+12784,3,Custom attribute SL2
+12785,3,Custom attribute SL3
+12786,3,Custom attribute SL4
+12787,3,Custom attribute SL5 (Least Severe)
+12788,3,Images not taken prior to 1st  fx
+12789,3,Initial images not approved before 1st  fx
+12790,3,Initial images visually but not electronically approved
+12791,3,Initial images not taken of all fields
+12792,3,Images associated with wrong location/field
+12793,3,Images not saved
+12794,3,Images not imported
+12795,3,Images assigned to wrong patient
+12796,3,No approval before applying initial shifts
+12797,3,Patient marked incorrectly after applying initial shifts
+12798,3,Wrong initial shifts applied
+12799,3,Initial shifts not recorded
+12800,3,Daily/weeky images not acquired
+12801,3,Daily/weekly images not approved
+12802,3,Port images - treatment MUs incorrect in R&V
+12803,3,Port images - open exposure MUs incorrect in R&V
+12804,3,Port images - dose coefficient incorrect in R&V
+12805,3,Image contrast/brightness poor
+12806,3,Image ruler not calibrated
+12807,3,Custom attribute SL1 (Most Severe)
+12808,3,Custom attribute SL2
+12809,3,Custom attribute SL3
+12810,3,Custom attribute SL4
+12811,3,Custom attribute SL5 (Least Severe)
+12812,3,Field setup photos incorr./miss.
+12813,3,Immobilization device miss.
+12814,3,Field alignment > 2 mm
+12815,3,Initial Tx field SSDs incorr./miss.
+12816,3,Initial setup field SDDs incorr./miss.
+12817,3,Initial setup field SDDs incorr./miss.
+12818,3,Weekly Tx field SSDs incorr./miss.
+12819,3,Fields incorr. entered in R&V
+12820,3,CT sim note incorr./miss.
+12821,3,"Patient unable to maintain position, no Tx"
+12822,3,Custom attribute SL1 (Most Severe)
+12823,3,Custom attribute SL2
+12824,3,Custom attribute SL3
+12825,3,Custom attribute SL4
+12826,3,Custom attribute SL5 (Least Severe)
+12827,3,Wrong EDW used
+12828,3,"EDWs required, no wedges used"
+12829,3,EDW used in incorr. orientation
+12830,3,Compensator incorr./miss.
+12831,3,Custom attribute SL1 (Most Severe)
+12832,3,Custom attribute SL2
+12833,3,Custom attribute SL3
+12834,3,Custom attribute SL4
+12835,3,Custom attribute SL5 (Least Severe)
+12836,3,Custom attribute SL1 (Most Severe)
+12837,3,Custom attribute SL2
+12838,3,Custom attribute SL3
+12839,3,Custom attribute SL4
+12840,3,Custom attribute SL5 (Least Severe)
+1310,3,Pt. position not iso. to midline (SAD)
+1311,3,Pt. position not to specified SSD
+1320,3,Missing AP SSD
+1321,3,Missing PA SSD
+1322,3,Missing RL/Medial SSD
+1323,3,Missing LL/Medial SSD
+1324,3,Missing calc. pt. SSD
+1325,3,Table vert.  does not agree w/SSD
+1326,3,SSD read incorrectly
+1330,3,Separation does not agree w/SSD
+1331,3,Separation missing
+1340,3,Incorrect contour
+1350,3,Failure to capture all Tx fields
+1351,3,Failure to capture setup fields
+1360,3,Setup instructions incorrect
+1361,3,Setup instructions miss./incomp.
+1370,3,Custom Attribute
+1400,3,Miss./incorr. pt. info.
+1401,3,Miss./incorr. field info.
+1402,3,Miss./incorr. field markers
+1403,3,Miss./incorr. SFD
+1410,3,Custom Attribute
+1500,3,Blocks cut incorr.
+1501,3,Hand set blocks mounted incorr.
+1502,3,Custom blocks mounted incorr.
+1503,3,Missing or late block checks
+1510,3,Custom Attribute
+1600,3,Incorr./miss. treatment site
+1610,3,Incorr./miss. field names
+1620,3,Incorr. energy
+1621,3,Incorr. field size
+1622,3,Incorr. SSD
+1623,3,Incorr. depth
+1624,3,Incorr./miss. tray factor
+1625,3,Incorr./miss. wedge factor
+1626,3,Incorr./miss. bolus
+1627,3,"Calc. w/bolus, bolus not Rxd"
+1628,3,Wrong coll. scatt. factor
+1629,3,Wrong phantom scatt. factor
+1630,3,Wrong inverse sq. factor
+1631,3,Math error
+1632,3,Calc using incorr. dose
+1633,3,Tx plan not approved
+1640,3,Custom Attribute
+1650,3,Incorr. energy
+1651,3,Incorr. mode of tmt.
+1652,3,Incorr. field size
+1653,3,Incorr. asymmetric jaw
+1654,3,Incorr. SSD
+1655,3,Incorr depth
+1656,3,Incorr. gantry angle
+1657,3,Incorr. coll. angle
+1658,3,Incorr. tray factor
+1659,3,Incorr. wedge angle
+1660,3,Incorr. bolus
+1661,3,Calc. to wrong point
+1662,3,Calc. using wrong dose
+1663,3,Calc. not normalized correctly
+1670,3,Custom Attribute
+1680,3,Used incorr. cutout
+1681,3,Dose incorr.
+1682,3,Energy incorr.
+1683,3,Cone size incorr.
+1684,3,SSD incorr.
+1685,3,Depth incorr.
+1686,3,Isodose line incorr.
+1687,3,Depth of meas. incorr.
+1688,3,Energy or modality used incorr.
+1689,3,Cone size used incorr.
+1690,3,Custom Attribute
+1700,3,Diagnosis
+1701,3,Histology
+1702,3,H/P grade
+1703,3,TNM stage
+1704,3,Treatment intent
+1705,3,Surgery
+1706,3,Chemotherapy
+1707,3,Previous
+1708,3,Special precautions
+1709,3,Rx: Date
+1710,3,Rx: Course
+1800,3,Fields
+1801,3,Rx site
+1802,3,Technique
+1803,3,Energy and modality
+1804,3,Dose specification
+1805,3,Total site dose
+1806,3,Fraction dose
+1807,3,Number of fraction
+1808,3,Total course dose
+1809,3,Pattern
+1810,3,MD signature
+1811,3,Comments
+1820,3,Custom Attribute
+1830,3,Diagrams
+1831,3,Tx field photos
+1832,3,Set-up instructions
+1840,3,Custom Attribute
+1900,3,Date
+1901,3,Machine
+1902,3,Energy
+1903,3,Field number
+1904,3,Field name
+1905,3,SSD
+1906,3,Field size
+1907,3,Gantry angle
+1908,3,Coll. angle
+1909,3,Couch angle
+1910,3,Blocks not corr.  indicated
+1911,3,Blocks drawn in wrong orient.
+1912,3,Bolus not corr. indicated
+1913,3,Wedge not corr. indicated
+1914,3,Incorr. wedge orient.
+1915,3,Incorr. wedge angle 
+1916,3,Cutout not corr. indicated
+1917,3,Cutout drawn in wrong orient.
+1918,3,Incorr./miss. monitor units
+1919,3,Incorr/miss. dose
+1930,3,Custom Attribute
+1940,3,Record not dated/incorr.date
+1941,3,Without/incorr. elapsed days
+1942,3,Without/incorr. fraction no
+1943,3,Record not initialed
+1944,3,Daily dose not recorded in chart
+1944a,3,Daily dose incorr. recorded in chart
+1945,3,Daily dose not recorded in R&V
+1946,3,Cum. dose incorr./not record. in chart
+1947,3,Port films not recorded in chart
+1948,3,Comments not filled out in chart
+1949,3,Signed consent forms not present
+1960,3,Custom Attribute
+2,1,R & V: Data Entry
+2000,3,Redundant ID not performed
+2001,3,Incorr. pt. chart utilized
+2002,3,Incorr. pt. pulled up in R&V
+2003,3,Missing face photo
+2010,3,Custom Attribute
+21,2,Treatment Field Definition
+2100,3,Initial films not taken prior to 1st fx
+2101,3,Initial films not appr.
+2102,3,Initial films not taken of all fields
+2110,3,Custom Attribute
+2120,3,Treated wrong patient
+2121,3,Immobilization device missing
+2122,3,Field alignment > 2 mm
+2123,3,Fields incorr. captured in R&V
+2124,3,Tx with blocks in incorr. orient.
+2125,3,Tx with miss./incorr.  blocks
+2126,3,Tx without block check
+2127,3,Tx with miss./incorr. bolus
+2128,3,Tx with miss./ incorr. wedge
+2129,3,Tx with wedge in incorr. orient.
+2130,3,Tx with missing/incorr. cutout
+2131,3,Tx with cutout in wrong orient.
+2132,3,Tx without prescription
+2133,3,Tx with wrong mode of tmt. (X or e-)
+2134,3,Wrong treatment site
+2135,3,Calc.d daily adm. dose > 5% daily Rx
+2135a,3,Calc.d wkly adm. dose 15% > wkly Rx
+2136,3,Calc.d wkly adm. dose 30% > wkly Rx
+2137,3,Calc totl adm. dose > 20% of total Rx
+2138,3,"Fx < 3,calc totl adm dose > 10% totl Rx"
+2139,3,Incorrect linac calibration
+2200,3,Tx info. on Post-It in chart
+2201,3,Miss./late wedge angle/orient. ck. 
+2202,3,Miss./late initial ver. of Tx info.
+2203,3,Miss./late init ver of Tx info (non-R&V)
+2204,3,Miss./late calc. check
+2205,3,Miss./late weekly chart rnds.
+2206,3,Miss./late daily linac checks
+2207,3,Miss./late wkly. linac printout
+2208,3,Miss./late wkly. linac checks
+2209,3,Miss./late monthly linac checks
+2210,3,Miss./late daily linac output const.
+2211,3,Miss./late MDA TLD checks
+2212,3,Miss./late annual linac cal.
+2213,3,Miss./late weekly chart checks
+2213a,3,Miss./late annual linac cal. report
+2214,3,Miss./late sim. calib.
+2215,3,Miss./late quarterly QIC mtg.
+2216,3,Chamber/electr. calib. past due
+2217,3,Miss./late chamb./elec. intercomp.
+2218,3,Survey meter calib. past due
+2219,3,Area monitor calib. past due
+2220,3,Miss./late ann. thermometer inter.
+2221,3,Miss./late ann. barometer inter.
+2222,3,Miss./late mon. block cut checks
+2223,3,Miss./late drkrm. fog test
+2224,3,Incomp. physics data & calc. check
+2225,3,Miss./late new emp. trng.
+2226,3,Miss./late locum emp. trng.
+2227,3,Quorum not est. at QIC mtg.
+2228,3,Man. Tx w/o prior approval (R&V)
+2229,3,Miss./late mon. comp. cksum (R&V)
+2230,3,Diag. kit ann cal. past due
+2231,3,Miss/late mon. film cass. checks
+2232,3,Miss/late ann. re-comm. of comp.
+2233,3,Miss/late physics sign/date of QA
+2234,3,Miss./late bi-week linac output check
+2234a,3,Miss./late mon. linac output check
+2235,3,Miss./late mon. linac energy check
+2240,3,Custom Attribute
+2250,3,Miss./late RSC mtg.
+2251,3,Quorum not est. at RSC mtg.
+2252,3,Miss./late ann. rev. of RS & ALARA
+2253,3,Miss./late new emp. trng.
+2254,3,Miss./late locum emp. trng.
+2255,3,Miss./late ann. refresher trng.
+2256,3,Linac keys not secured
+2257,3,Survey meter inoperable
+2258,3,Area monitor inoperable
+2259,3,Miss./late daily survey meter check
+2260,3,Film/ring badge not worn
+2261,3,Film/ring badge not ret. to board
+2262,3,Miss./late mon. exch. film badges
+2263,3,Miss./late mon. rev. of film badges
+2264,3,Miss/late rev. of occ. doses > inv. lvl.
+2265,3,Miss./late qtrly. exch. of area mon.
+2266,3,Miss./late qtrly. rev. of area mon.
+2267,3,Miss./late weekly chart checks
+2270,3,Custom Attribute
+3,1,Patient Simulation
+31,2,Patient Setup
+32,2,Simulation Films
+4,1,Block Fabrication
+5,1,Dose Calculation
+51,2,Hand Calculations
+52,2,Computer Calculations
+6,1,Cutout Measurements
+7,1,Treatment Chart
+71,2,Prescription
+72,2,Patient setup documentation
+73,2,Treatment field information
+8,1,Treatment of Patient
+81,2,Daily treatment record
+82,2,Patient Identification
+83,2,Port films
+84,2,Patient setup
+85,2,Beam Modifiers
+86,2,Administration of radiation
+9,1,Quality Assurance
+991,3,Custom attribute SL 1 (Most Severe)
+992,3,Custom Attribute SL 2
+993,3,Custom Attribute SL 3
+994,3,Custom Attribute SL 4
+995,3,Custom attribute SL 5 (Least Severe)
+,,
+,,
+Disclosure's Proprietary Information,,

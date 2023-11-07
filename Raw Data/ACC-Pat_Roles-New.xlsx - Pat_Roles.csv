@@ -1,0 +1,17 @@
+ID,RNAME,DESCRIPTION,CAN_VIEW_TASK_TIMELINESS,IS_ADMIN,IS_PARTIAL_ADMIN
+1,ACC St. Louis,ACC St. Louis,0,0,0
+A,Radiation Services Director,Radiation Services Director,1,0,1
+B,USCT Management,USCT Management,1,1,0
+D,Dosimetrist,Dosimetrist,0,0,0
+E,CT Technologist,CT Technologist,0,0,0
+G,Medical Receptionist,Medical Receptionist,0,0,0
+K,Financial Counselor,Financial Counselor,0,0,0
+M,Radiation Oncologist,Radiation Oncologist,0,0,0
+N,MA/Nurse,MA/Nurse,0,0,0
+P,Physicist,Physicist,0,0,0
+R,Facility RSO,Facility RSO,0,0,0
+T,Therapist,Therapist,0,0,0
+U,Senior Therapist,Senior Therapist,0,0,0
+,,,,,
+,,,,,
+Disclosure's Proprietary Information,,,,,

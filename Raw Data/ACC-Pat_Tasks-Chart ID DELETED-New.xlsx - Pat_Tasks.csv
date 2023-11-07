@@ -1,0 +1,164 @@
+TASKID,TITLE,DESCRIPTION,MOREINFO,USERID,GROUPID,CREATED,LASTOPENED,ACTION,SUBACTION,ARTIFACTID,STATUS,DELETED
+207,Deviation Approval Required,Chart# XXX: Review unintended deviation,Adnormal lab results not reported,,A,18:22.0,18:22.0,2,1,144,4,0
+208,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,A,34:54.0,34:54.0,2,1,145,4,0
+209,Deviation Approval Required,Chart# XXX: Review unintended deviation,Adnormal lab results not reported,,A,48:32.0,48:32.0,2,1,147,4,0
+210,Deviation Approval Required,Chart# XXX: Review unintended deviation,Adnormal lab results not reported,,A,51:30.0,51:30.0,2,1,148,4,0
+211,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,19:19.0,19:19.0,2,1,149,4,0
+212,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,22:08.0,22:08.0,2,1,150,4,0
+213,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,22:55.0,22:55.0,2,1,151,4,0
+214,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,23:40.0,23:40.0,2,1,152,4,0
+215,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,24:29.0,24:29.0,2,1,153,4,0
+216,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,28:37.0,28:37.0,2,1,154,4,0
+217,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,30:17.0,30:17.0,2,1,155,4,0
+218,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,31:30.0,31:30.0,2,1,156,4,0
+219,Deviation Approval Required,Chart# XXX: Review unintended deviation,Medical record no. incorr./miss.,,A,32:22.0,32:22.0,2,1,157,4,0
+220,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,52:55.0,52:55.0,2,1,158,4,0
+221,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,54:22.0,54:22.0,2,1,158,4,0
+222,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,03:16.0,03:16.0,2,1,159,4,0
+223,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment not scheduled,,A,39:17.0,39:17.0,2,1,160,4,0
+224,Deviation Approval Required,Chart# XXX: Review unintended deviation,Conflict of appointment dates/times,,A,07:42.0,07:42.0,2,1,161,4,0
+225,Deviation Approval Required,Chart# XXX: Review unintended deviation,Conflict of appointment dates/times,,A,11:54.0,11:54.0,2,1,161,4,0
+226,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment not scheduled,,A,36:28.0,36:28.0,2,1,162,4,0
+227,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 4,,A,34:02.0,34:02.0,2,1,163,4,0
+228,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment not scheduled,,A,09:26.0,09:26.0,2,1,164,4,0
+229,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment not scheduled,,A,59:55.0,59:55.0,2,1,165,4,0
+230,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,P,06:59.0,06:59.0,2,1,163,4,0
+231,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,07:13.0,07:13.0,2,1,166,4,0
+232,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,44:03.0,44:03.0,2,1,167,4,0
+233,Deviation Requires Correction,Chart# SYS_RS: Correct unintended deviation,Qtrly./monthly exchg. of personnel radiation monitors miss./late,ekline,,09:49.0,09:49.0,3,1,168,4,0
+234,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Qtrly./monthly exchg. of personnel radiation monitors miss./late,,R,11:02.0,11:02.0,2,1,168,4,0
+235,Deviation Requires Correction,Chart# SYS_RS: Correct unintended deviation,Quarterly exchange of area radiation monitors miss./late,ekline,,13:13.0,13:13.0,3,1,169,4,0
+236,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Quarterly exchange of area radiation monitors miss./late,,R,13:48.0,13:48.0,2,1,169,4,0
+237,Deviation Requires Correction,Chart# SYS_RS: Correct unintended deviation,Area monitor inoperable,ekline,,20:14.0,20:14.0,3,1,170,4,0
+238,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Area monitor inoperable,,A,23:04.0,23:04.0,2,1,170,4,0
+239,Deviation Requires Correction,Chart# SYS_RS: Correct unintended deviation,Linac audio monitoring system inoperable,ekline,,27:57.0,27:57.0,3,1,171,4,0
+240,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac audio monitoring system inoperable,,A,29:22.0,29:22.0,2,1,171,4,0
+241,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac audio monitoring system inoperable,,P,51:22.0,51:22.0,2,1,171,4,0
+242,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Area monitor inoperable,,P,51:34.0,51:34.0,2,1,170,4,0
+243,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac audio monitoring system inoperable,,R,20:32.0,20:32.0,2,1,171,4,0
+244,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Area monitor inoperable,,R,21:40.0,21:40.0,2,1,170,4,0
+245,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,A,10:40.0,10:40.0,2,1,172,4,0
+246,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 3,,P,11:35.0,11:35.0,2,1,172,4,0
+247,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,56:06.0,56:06.0,2,1,173,4,0
+248,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,59:24.0,59:24.0,2,1,174,4,0
+249,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,36:46.0,36:46.0,2,1,175,4,0
+250,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,42:33.0,42:33.0,2,1,176,4,0
+251,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,02:31.0,02:31.0,2,1,177,4,0
+252,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,04:32.0,04:32.0,2,1,178,4,0
+253,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,07:27.0,07:27.0,2,1,179,4,0
+254,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,08:59.0,08:59.0,2,1,180,4,0
+255,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,10:49.0,10:49.0,2,1,181,4,0
+256,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,12:28.0,12:28.0,2,1,182,4,0
+257,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,15:43.0,15:43.0,2,1,183,4,0
+258,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,18:33.0,18:33.0,2,1,184,4,0
+259,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,21:09.0,21:09.0,2,1,185,4,0
+260,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,22:50.0,22:50.0,2,1,186,4,0
+261,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,25:15.0,25:15.0,2,1,187,4,0
+262,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,27:43.0,27:43.0,2,1,188,4,0
+263,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,35:14.0,35:14.0,2,1,189,4,0
+264,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,07:05.0,07:05.0,2,1,190,4,0
+265,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,27:54.0,27:54.0,2,1,191,4,0
+266,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,29:49.0,29:49.0,2,1,192,4,0
+267,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,31:51.0,31:51.0,2,1,193,4,0
+268,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,33:06.0,33:06.0,2,1,194,4,0
+269,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,35:48.0,35:48.0,2,1,195,4,0
+270,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,37:04.0,37:04.0,2,1,196,4,0
+271,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,38:46.0,38:46.0,2,1,197,4,0
+272,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,42:05.0,42:05.0,2,1,198,4,0
+273,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,43:23.0,43:23.0,2,1,199,4,0
+274,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,51:45.0,51:45.0,2,1,200,4,0
+275,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,11:05.0,11:05.0,2,1,201,4,0
+276,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,13:13.0,13:13.0,2,1,202,4,0
+277,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,15:19.0,15:19.0,2,1,203,4,0
+278,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,00:18.0,00:18.0,2,1,204,4,0
+279,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,02:49.0,02:49.0,2,1,205,4,0
+280,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,08:12.0,08:12.0,2,1,206,4,0
+281,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,27:58.0,27:58.0,2,1,207,4,0
+282,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,30:13.0,30:13.0,2,1,208,4,0
+283,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,31:38.0,31:38.0,2,1,209,4,0
+284,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,33:22.0,33:22.0,2,1,210,4,0
+285,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,36:23.0,36:23.0,2,1,211,4,0
+286,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,38:04.0,38:04.0,2,1,212,4,0
+287,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,40:19.0,40:19.0,2,1,213,4,0
+288,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,46:16.0,46:16.0,2,1,214,4,0
+289,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,47:55.0,47:55.0,2,1,215,4,0
+290,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,49:54.0,49:54.0,2,1,216,4,0
+291,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,51:15.0,51:15.0,2,1,217,4,0
+292,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,K,53:18.0,53:18.0,2,1,218,4,0
+294,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 2,,U,21:46.0,21:46.0,2,1,220,4,0
+295,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 3,,U,28:57.0,28:57.0,2,1,221,4,0
+296,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 2,,U,37:31.0,37:31.0,2,1,222,4,0
+297,Deviation Approval Required,Chart# XXX: Review unintended deviation,IMRT planning note incorr./miss.,,A,42:22.0,42:22.0,2,1,223,4,0
+298,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,13:42.0,13:42.0,2,1,218,4,0
+299,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,13:48.0,13:48.0,2,1,217,4,0
+300,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:00.0,14:00.0,2,1,216,4,0
+301,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:05.0,14:05.0,2,1,215,4,0
+302,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:09.0,14:09.0,2,1,214,4,0
+303,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:14.0,14:14.0,2,1,213,4,0
+304,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:19.0,14:19.0,2,1,212,4,0
+305,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:24.0,14:24.0,2,1,211,4,0
+306,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:30.0,14:30.0,2,1,210,4,0
+307,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:35.0,14:35.0,2,1,209,4,0
+308,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:39.0,14:39.0,2,1,208,4,0
+309,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:45.0,14:45.0,2,1,207,4,0
+310,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,14:51.0,14:51.0,2,1,206,4,0
+311,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:24.0,15:24.0,2,1,205,4,0
+312,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:27.0,15:27.0,2,1,204,4,0
+313,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:31.0,15:31.0,2,1,203,4,0
+314,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:35.0,15:35.0,2,1,202,4,0
+315,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:38.0,15:38.0,2,1,201,4,0
+316,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:42.0,15:42.0,2,1,200,4,0
+317,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:45.0,15:45.0,2,1,199,4,0
+318,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:48.0,15:48.0,2,1,198,4,0
+319,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:51.0,15:51.0,2,1,197,4,0
+320,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:55.0,15:55.0,2,1,196,4,0
+321,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,15:59.0,15:59.0,2,1,195,4,0
+322,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:03.0,16:03.0,2,1,194,4,0
+323,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:06.0,16:06.0,2,1,193,4,0
+324,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:12.0,16:12.0,2,1,192,4,0
+325,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:16.0,16:16.0,2,1,191,4,0
+326,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:19.0,16:19.0,2,1,190,4,0
+327,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:25.0,16:25.0,2,1,189,4,0
+328,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:29.0,16:29.0,2,1,188,4,0
+329,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:33.0,16:33.0,2,1,187,4,0
+330,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:38.0,16:38.0,2,1,186,4,0
+331,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:41.0,16:41.0,2,1,185,4,0
+332,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:44.0,16:44.0,2,1,184,4,0
+333,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:48.0,16:48.0,2,1,183,4,0
+334,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:51.0,16:51.0,2,1,182,4,0
+335,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:55.0,16:55.0,2,1,181,4,0
+336,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,16:58.0,16:58.0,2,1,180,4,0
+337,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:01.0,17:01.0,2,1,179,4,0
+338,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:04.0,17:04.0,2,1,178,4,0
+339,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:07.0,17:07.0,2,1,177,4,0
+340,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:10.0,17:10.0,2,1,176,4,0
+341,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:14.0,17:14.0,2,1,175,4,0
+342,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:17.0,17:17.0,2,1,174,4,0
+343,Deviation Approval Required,Chart# XXX: Review unintended deviation,CPT code incorr./miss.,,A,17:20.0,17:20.0,2,1,173,4,0
+344,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 2,,A,46:58.0,46:58.0,2,1,220,4,0
+345,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 3,,A,47:52.0,47:52.0,2,1,221,4,0
+346,Deviation Approval Required,Chart# SYS_QA: Review unintended deviation,Custom attribute SL 2,,A,48:21.0,48:21.0,2,1,222,4,0
+348,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac door interlock inoperable,,A,54:06.0,54:06.0,2,1,225,4,0
+349,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac door interlock inoperable,,P,00:28.0,00:28.0,2,1,225,4,0
+350,Deviation Approval Required,Chart# SYS_RS: Review unintended deviation,Linac door interlock inoperable,,R,43:21.0,43:21.0,2,1,225,4,0
+351,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,A,22:41.0,22:41.0,2,1,226,4,0
+352,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,A,01:07.0,01:07.0,2,1,227,4,0
+353,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,A,07:01.0,07:01.0,2,1,228,4,0
+354,Deviation Approval Required,Chart# XXX: Review unintended deviation,HIPAA consent not signed/miss.,,A,03:18.0,03:18.0,2,1,229,4,0
+355,Deviation Approval Required,Chart# XXX: Review unintended deviation,Signed consent forms not present,,A,52:06.0,52:06.0,2,1,230,4,0
+356,Deviation Requires Correction,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,T,16:28.0,16:28.0,3,1,231,4,0
+357,Deviation Requires Correction,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,T,37:01.0,37:01.0,3,1,232,4,0
+358,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment not scheduled,,A,23:34.0,23:34.0,2,1,233,4,0
+359,Deviation Approval Required,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,K,47:41.0,47:41.0,2,1,232,4,0
+360,Deviation Approval Required,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,K,48:32.0,48:32.0,2,1,231,4,0
+361,Deviation Approval Required,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,A,03:37.0,03:37.0,2,1,231,4,0
+362,Deviation Approval Required,Chart# XXX: Review unintended deviation,No. of charges incorr./miss.,,A,04:28.0,04:28.0,2,1,232,4,0
+363,Deviation Approval Required,Chart# XXX: Review unintended deviation,Appointment activity incorr./miss.,,A,58:46.0,58:46.0,2,1,234,4,0
+364,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 5 (Least Severe),,A,21:06.0,21:06.0,2,1,235,4,0
+365,Deviation Approval Required,Chart# XXX: Review unintended deviation,IMRT planning note incorr./miss.,,A,24:37.0,24:37.0,2,1,236,4,0
+366,Deviation Approval Required,Chart# XXX: Review unintended deviation,Custom attribute SL 4,,A,15:11.0,15:11.0,2,1,237,4,0
+367,Deviation Approval Required,Chart# XXX: Review unintended deviation,Full name incorr./miss.,,A,08:52.0,08:52.0,2,1,238,4,0
+368,Deviation Approval Required,Chart# XXX: Review unintended deviation,Order miss.,,A,23:49.0,23:49.0,2,1,239,4,0
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Disclosure's Proprietary Information,,,,,,,,,,,,
