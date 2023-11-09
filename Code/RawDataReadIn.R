@@ -58,3 +58,19 @@ errorMasterChart <-
 errorMasterChart <- errorMasterChart[-c(127,126,125),]
 
 
+#setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets")
+# The Datasets folder holds the datasets just read in.
+# To access them, just use load("nameoffile.RData") to read it in to the environment.
+save(users, file = "users.RData")
+save(catCodes, file = "catCodes.RData")
+save(patientMasterChart, file = "patientMasterChart.RData")
+save(patTasks, file = "patTasks.RData")
+save(patRoles, file = "patRoles.RData")
+save(errorLookup, file = "errorLookup.RData")
+save(DailyPortions, file = "DailyPortions.RData")
+save(correctiveNode, file = "correctiveNode.RData")
+save(corrections, file = "corrections.RData")
+save(patApprovals, file = "patApprovals.RData")
+save(errorMasterChart, file = "errorMasterChart.RData")
+
+
