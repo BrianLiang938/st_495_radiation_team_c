@@ -1,4 +1,5 @@
 library(tidyverse)
+library(readxl)
 
 # If someone needs this - make sure to change the command below so you can access the data!
 # This is what I have it as on my machine.
@@ -57,10 +58,17 @@ errorMasterChart <-
   read_csv("ACC-Error_Master-Chart ID DELETED-New.xlsx - Error_Master.csv")
 errorMasterChart <- errorMasterChart[-c(127,126,125),]
 
+#Acc-Error_Master-Chart ID DELETED-New.xlsx
+errorMasterChart <-
+  read_excel("/Users/david/Desktop/Raw_Data/ACC - New/ACC-Error_Master-Chart ID DELETED-New.xlsx")
+errorMasterChart <- errorMasterChart %>%
+  filter((str_detect(DEVID, "\\d"))) %>%
+  separate(ERROR_CODE, into=c('start', 'CATEGORY1_ID', 'CATEGORY2_ID', 'ATTRIBUTE_ID'), sep = '-')
+errorMasterChart <- errorMasterChart[-c(21,27,29,31,33,67,86,94,96),]
 
-#setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets")
 # The Datasets folder holds the datasets just read in.
 # To access them, just use load("nameoffile.RData") to read it in to the environment.
+setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets")
 save(users, file = "users.RData")
 save(catCodes, file = "catCodes.RData")
 save(patientMasterChart, file = "patientMasterChart.RData")
