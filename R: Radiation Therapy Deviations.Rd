@@ -30,15 +30,15 @@ The DeviationsChart dataset includes information about deviations and corrective
     
     \item{\code{DEV_TYPE}}{Main type of deviation during the treatment.}
     
-    \item{\code{Category_Desc}}{Description of the deviation's category.}
+    \item{\code{CATDESC}}{Description of the deviation's category.}
     
-    \item{\code{Subcat_Desc}}{Description of the deviation's subcategory.}
+    \item{\code{SUBDESC}}{Description of the deviation's subcategory.}
     
-    \item{\code{Attribute_Desc}}{Description of the deviation's attribute.}
+    \item{\code{ATTRDESC}}{Description of the deviation's attribute.}
     
-    \item{\code{ACTION_ID}}{A value representing a corrective action taken as a result of the deviation.}
+    \item{\code{ACTION_ID}}{A value representing a corrective action taken as a result of the deviation. Some deviations might not have had action taken on them: Therefore, this variable and the ones after will most likely be missing for that certain observation.}
     
-    \item{\code{DESCRIPTION_Custom}}{Free text describing more about the corrective actions taken.}
+    \item{\code{ACTIONDESC_CUST}}{Free text describing more about the corrective actions taken.}
     
     \item{\code{ISSHORTTERM}}{Is the corrective action taken as a result of the deviation short-term or long-term? 0 = No, 1 = Yes.}
 
@@ -46,7 +46,7 @@ The DeviationsChart dataset includes information about deviations and corrective
     
     \item{\code{CAT2}}{The second 5 number sequence of the ACTION_ID.}
     
-    \item{\code{DESCRIPTION_Formal}}{Preconfigured short-term and long-term corrective actions taken as a result of the deviation.}
+    \item{\code{ACTIONDESC}}{Preconfigured short-term and long-term corrective actions taken as a result of the deviation.}
   }
 }
 \keyword{datasets}

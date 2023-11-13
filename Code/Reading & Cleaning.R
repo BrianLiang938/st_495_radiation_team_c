@@ -123,10 +123,13 @@ cleanedWithoutActions <- finalWithCorrections1 %>%
   select(-c(16:23)) %>% 
   distinct(DEVID, .keep_all = TRUE)
 
-cleanedWithActions <- cleanedWithActions[,-c(10,12,14,18,20)]
+cleanedWithActions <- cleanedWithActions[,-c(10,12,14,18,20)] %>% 
+  rename(CATDESC = Category_Desc, SUBDESC = Subcat_Desc, 
+         ATTRDESC = Attribute_Desc, ACTIONDESC_CUST = DESCRIPTION_Custom ,
+         ACTIONDESC = DESCRIPTION_Formal)
 
 
-setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets")
+setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets/Cleaned Data")
 save(cleanedWithActions, file = "cleanedDataWithCorrectiveActions.RData")
 save(cleanedWithoutActions, file = "cleanedDataWithoutCorrectiveActions.RData")
   
