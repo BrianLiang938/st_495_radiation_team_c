@@ -123,6 +123,9 @@ cleanedWithoutActions <- finalWithCorrections1 %>%
   select(-c(16:23)) %>% 
   distinct(DEVID, .keep_all = TRUE)
 
+cleanedWithActions <- cleanedWithActions[,-c(10,12,14,18,20)]
+
+
 setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets")
 save(cleanedWithActions, file = "cleanedDataWithCorrectiveActions.RData")
 save(cleanedWithoutActions, file = "cleanedDataWithoutCorrectiveActions.RData")
