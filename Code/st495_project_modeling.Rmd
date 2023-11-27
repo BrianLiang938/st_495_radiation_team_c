@@ -186,7 +186,7 @@ mean(err)
 ``` {r}
 library(randomForest)
 
-train_index <- sample(nrow(mod_lsa_df), .7*nrow(mod_lsa_df))
+train_index <- sample(nrow(lsa_df), .7*nrow(lsa_df))
 rf_model = randomForest(attribute_id~., data=lsa_df, train=train_index, mtry=8, importance=TRUE)
 predictions = predict(rf_model, newdata=lsa_df[-train_index,])
 mean(predictions!=lsa_df[-train_index,]$attribute_id)
