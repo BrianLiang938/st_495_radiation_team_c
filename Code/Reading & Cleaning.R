@@ -157,9 +157,9 @@ finalWithCorrections1 <- finalWithCorrections3 %>%
 finalWithCorrections1$Date <- as.Date(finalWithCorrections1$Date, 
                                       tryFormats = c("%Y-%m-%d", "%Y/%m/%d"))
 
-## FIX FROM BELOW
+## FIX FROM BELOW - 16,18,20, 24, 26
 cleanedWithActions <- finalWithCorrections1 %>% 
-  select(2:9, 1, 30, 10:29)
+  select(2:9, 1, 30, 10:15, 17, 19, 21:23, 25, 27:30)
 cleanedWithoutActions <- finalWithCorrections1 %>% 
   select(-c(22:30)) %>% 
   distinct(DEVID, .keep_all = TRUE)
@@ -169,9 +169,10 @@ cleanedWithActions <- cleanedWithActions %>%
          ATTRDESC = Attribute_Desc, ACTIONDESC_CUST = DESCRIPTION_Custom ,
          ACTIONDESC = DESCRIPTION_Formal)
 
-
 setwd("~/Documents/ST 495/FinalProject/st_495_radiation_team_c/Datasets/Cleaned Data")
+write.csv(cleanedWithActions, file = "DeviationsChart.csv")
 save(cleanedWithActions, file = "cleanedDataWithCorrectiveActions.RData")
 save(cleanedWithoutActions, file = "cleanedDataWithoutCorrectiveActions.RData")
+rm(list = ls())
   
 

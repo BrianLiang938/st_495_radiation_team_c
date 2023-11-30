@@ -4,7 +4,7 @@
 \title{ Radiation Therapy Deviations
 }
 \description{
-The DeviationsChart dataset includes information about deviations and corrective actions in Radiation Therapy treatments from the ACC Cancer Center. The dataset was created and merged from multiple spreadsheets to gather the variables. This data frame contains 247 observations and 18 variables.
+The DeviationsChart dataset includes information about deviations and corrective actions in Radiation Therapy treatments from the ACC Cancer Center. The dataset was created and merged from multiple spreadsheets to gather the variables. This data frame contains 247 observations and 25 variables.
 }
 \usage{DeviationsChart}
 \format{
@@ -24,7 +24,21 @@ The DeviationsChart dataset includes information about deviations and corrective
     
     \item{\code{DESCRIPTION}}{Free text descriving the details of the deviation.}
     
+    \item{\code{Date}}{The date of the deviation's occurance.}
+    
+    \item{\code{IDENTIFIED_BY}}{The username of the staff member who identified the deviation.}
+    
+    \item{\code{Role}}{The staff member's role in the organization.}
+    
     \item{\code{AFFECTED_TREATMENT}}{Did the deviation affect the patient's treatment?}
+    
+    \item{\code{CORRECTED}}{Was the deviation corrected?}
+    
+    \item{\code{WHYNOTCORRECTED}}{If the deviation was not corrected, free-text response as to why.}
+    
+    \item{\code{Treatment_Intent}}{The intended treatment for the patient.}
+    
+    \item{\code{Treatment_Method}}{The type of treatment method being utilized for the patient.}
     
     \item{\code{DEV_TYPE}}{Main type of deviation during the treatment.}
     
