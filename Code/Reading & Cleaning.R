@@ -107,23 +107,64 @@ correctionRelated <- merge(corrections, correctiveNode, by = "ACTION_ID",
 finalWithCorrections <- merge(final, correctionRelated, by = "DEVID", all.x = TRUE)
 
 finalWithCorrections1 <- finalWithCorrections %>% 
-  select(-c(11:16, 18:19, 23:26, 6:8, 20, 21)) %>% 
+  select(-c(12, 14:16, 23:26, 6:8)) %>% 
   rename(Category_Desc = CAT1_DESCRIPTION, Subcat_Desc = CAT2_DESCRIPTION,
          Attribute_Desc = ATR_DESCRIPTION, CATLEVEL = CATLEVEL.x,
-         SUBLEVEL = CATLEVEL.y, ATTLEVEL = CATLEVEL)
+         SUBLEVEL = CATLEVEL.y, ATTLEVEL = CATLEVEL, 
+         Treatment_Intent = TX_INTENT, Treatment_Method = TX_METHOD)
 
 finalWithCorrections1$AFFECTED_TREATMENT <- as.factor(finalWithCorrections1$AFFECTED_TREATMENT)
 levels(finalWithCorrections1$AFFECTED_TREATMENT) <- c("No", "Yes")
 
-finalWithCorrections1$DEV_TYPE <- as.factor(finalWithCorrections1$AFFECTED_TREATMENT)
+finalWithCorrections1$Treatment_Intent <- as.factor(finalWithCorrections1$Treatment_Intent)
+levels(finalWithCorrections1$Treatment_Intent) <- c("NA", "Curative", "Pallative")
+levels(finalWithCorrections1$Treatment_Intent)[levels(finalWithCorrections1$Treatment_Intent)=="NA"]<-NA
+
+finalWithCorrections1$Treatment_Method <- as.factor(finalWithCorrections1$Treatment_Method)
+levels(finalWithCorrections1$Treatment_Method) <- c("NA", "IMRT")
+levels(finalWithCorrections1$Treatment_Method)[levels(finalWithCorrections1$Treatment_Method)=="NA"]<-NA
+
+finalWithCorrections1$CORRECTED <- as.factor(finalWithCorrections1$CORRECTED)
+levels(finalWithCorrections1$CORRECTED) <- c("Yes", "No", "NA")
+levels(finalWithCorrections1$CORRECTED)[levels(finalWithCorrections1$CORRECTED)=="NA"]<-NA
+
+finalWithCorrections1$DEV_TYPE <- as.factor(finalWithCorrections1$DEV_TYPE)
 levels(finalWithCorrections1$DEV_TYPE) <- c("Clinical", "Radiation Safety", "Quality Assurance")
 
-cleanedWithActions <- finalWithCorrections1
+# Put the role of the person who identified the error
+users1 <- users %>% 
+  select(-c(2,3,4,6))
+
+users1$ROLE_CODES <- as.factor(users1$ROLE_CODES)
+levels(users1$ROLE_CODES)[3] = "U"
+levels(users1$ROLE_CODES)[2] = "1"
+
+
+patRoles1 <- patRoles %>% 
+  select(-c(2,4,5,6)) %>% 
+  rename(ROLE_CODES = ID)
+
+userRoles <- merge(users1, patRoles1, by = "ROLE_CODES") %>% 
+  select(-c(1)) %>% 
+  rename(IDENTIFIED_BY = ID, Role = DESCRIPTION)
+
+finalWithCorrections3 <- merge(finalWithCorrections1, userRoles, by = "IDENTIFIED_BY", all.x = TRUE)
+
+# Put the date the error was identified.
+finalWithCorrections1 <- finalWithCorrections3 %>% 
+  separate(DATE_OCCURRED, into = c('Date', 'Time'), sep=' ', remove = FALSE) %>% 
+  select(-c("Time", "DATE_OCCURRED"))
+finalWithCorrections1$Date <- as.Date(finalWithCorrections1$Date, 
+                                      tryFormats = c("%Y-%m-%d", "%Y/%m/%d"))
+
+## FIX FROM BELOW
+cleanedWithActions <- finalWithCorrections1 %>% 
+  select(2:9, 1, 30, 10:29)
 cleanedWithoutActions <- finalWithCorrections1 %>% 
-  select(-c(16:23)) %>% 
+  select(-c(22:30)) %>% 
   distinct(DEVID, .keep_all = TRUE)
 
-cleanedWithActions <- cleanedWithActions[,-c(10,12,14,18,20)] %>% 
+cleanedWithActions <- cleanedWithActions %>% 
   rename(CATDESC = Category_Desc, SUBDESC = Subcat_Desc, 
          ATTRDESC = Attribute_Desc, ACTIONDESC_CUST = DESCRIPTION_Custom ,
          ACTIONDESC = DESCRIPTION_Formal)

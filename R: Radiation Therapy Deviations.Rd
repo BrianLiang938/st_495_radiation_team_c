@@ -2,15 +2,13 @@
 \alias{DeviationsChart}
 \docType{data}
 \title{ Radiation Therapy Deviations
-%%   ~~ data name/kind ... ~~
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
-The DeviationsChart dataset includes information about deviations and corrective actions in Radiation Therapy treatments from the ACC Cancer Center. The dataset was created and merged from multiple spreadsheets. 
+The DeviationsChart dataset includes information about deviations and corrective actions in Radiation Therapy treatments from the ACC Cancer Center. The dataset was created and merged from multiple spreadsheets to gather the variables. This data frame contains 247 observations and 18 variables.
 }
 \usage{DeviationsChart}
 \format{
-  A data frame with 247 observations on the following 18 variables:
+  This data frame consists of the following columns:
   \describe{
     \item{\code{DEVID}}{A value representing each distinct deviation; Some deviations have multiple rows due to multiple corrective actions taken.}
     
