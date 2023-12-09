@@ -3,12 +3,7 @@ title: "st495_modeling"
 output: html_document
 date: "2023-11-13"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r setup}
+```{r dataclean}
 library(tidyverse)
 library(readxl)
 library(dplyr)
@@ -118,26 +113,70 @@ correctionRelated <- merge(corrections, correctiveNode, by = "ACTION_ID",
 finalWithCorrections <- merge(final, correctionRelated, by = "DEVID", all.x = TRUE)
 
 finalWithCorrections1 <- finalWithCorrections %>% 
-  select(-c(11:16, 18:19, 23:26, 6:8, 20, 21)) %>% 
+  select(-c(12, 14:16, 23:26, 6:8)) %>% 
   rename(Category_Desc = CAT1_DESCRIPTION, Subcat_Desc = CAT2_DESCRIPTION,
          Attribute_Desc = ATR_DESCRIPTION, CATLEVEL = CATLEVEL.x,
-         SUBLEVEL = CATLEVEL.y, ATTLEVEL = CATLEVEL)
+         SUBLEVEL = CATLEVEL.y, ATTLEVEL = CATLEVEL, 
+         Treatment_Intent = TX_INTENT, Treatment_Method = TX_METHOD)
 
 finalWithCorrections1$AFFECTED_TREATMENT <- as.factor(finalWithCorrections1$AFFECTED_TREATMENT)
 levels(finalWithCorrections1$AFFECTED_TREATMENT) <- c("No", "Yes")
 
-finalWithCorrections1$DEV_TYPE <- as.factor(finalWithCorrections1$AFFECTED_TREATMENT)
+finalWithCorrections1$Treatment_Intent <- as.factor(finalWithCorrections1$Treatment_Intent)
+levels(finalWithCorrections1$Treatment_Intent) <- c("NA", "Curative", "Pallative")
+levels(finalWithCorrections1$Treatment_Intent)[levels(finalWithCorrections1$Treatment_Intent)=="NA"]<-NA
+
+finalWithCorrections1$Treatment_Method <- as.factor(finalWithCorrections1$Treatment_Method)
+levels(finalWithCorrections1$Treatment_Method) <- c("NA", "IMRT")
+levels(finalWithCorrections1$Treatment_Method)[levels(finalWithCorrections1$Treatment_Method)=="NA"]<-NA
+
+finalWithCorrections1$CORRECTED <- as.factor(finalWithCorrections1$CORRECTED)
+levels(finalWithCorrections1$CORRECTED) <- c("Yes", "No", "NA")
+levels(finalWithCorrections1$CORRECTED)[levels(finalWithCorrections1$CORRECTED)=="NA"]<-NA
+
+finalWithCorrections1$DEV_TYPE <- as.factor(finalWithCorrections1$DEV_TYPE)
 levels(finalWithCorrections1$DEV_TYPE) <- c("Clinical", "Radiation Safety", "Quality Assurance")
 
-cleanedWithActions <- finalWithCorrections1
+# Put the role of the person who identified the error
+users1 <- users %>% 
+  select(-c(2,3,4,6))
+
+users1$ROLE_CODES <- as.factor(users1$ROLE_CODES)
+levels(users1$ROLE_CODES)[3] = "U"
+levels(users1$ROLE_CODES)[2] = "1"
+
+
+patRoles1 <- patRoles %>% 
+  select(-c(2,4,5,6)) %>% 
+  rename(ROLE_CODES = ID)
+
+userRoles <- merge(users1, patRoles1, by = "ROLE_CODES") %>% 
+  select(-c(1)) %>% 
+  rename(IDENTIFIED_BY = ID, Role = DESCRIPTION)
+
+finalWithCorrections3 <- merge(finalWithCorrections1, userRoles, by = "IDENTIFIED_BY", all.x = TRUE)
+
+# Put the date the error was identified.
+finalWithCorrections1 <- finalWithCorrections3 %>% 
+  separate(DATE_OCCURRED, into = c('Date', 'Time'), sep=' ', remove = FALSE) %>% 
+  select(-c("Time", "DATE_OCCURRED"))
+finalWithCorrections1$Date <- as.Date(finalWithCorrections1$Date, 
+                                      tryFormats = c("%Y-%m-%d", "%Y/%m/%d"))
+
+## FIX FROM BELOW - 16,18,20, 24, 26
+cleanedWithActions <- finalWithCorrections1 %>% 
+  select(2:9, 1, 30, 10:15, 17, 19, 21:23, 25, 27:30)
 cleanedWithoutActions <- finalWithCorrections1 %>% 
-  select(-c(16:23)) %>% 
+  select(-c(22:30)) %>% 
   distinct(DEVID, .keep_all = TRUE)
 
-cleanedWithActions <- cleanedWithActions[,-c(10,12,14,18,20)]
-
+cleanedWithActions <- cleanedWithActions %>% 
+  rename(CATDESC = Category_Desc, SUBDESC = Subcat_Desc, 
+         ATTRDESC = Attribute_Desc, ACTIONDESC_CUST = DESCRIPTION_Custom ,
+         ACTIONDESC = DESCRIPTION_Formal)
 
 setwd("C://Users/gener/git/st_495_radiation_team_c/Raw Data")
+write.csv(cleanedWithActions, file = "DeviationsChart.csv")
 save(cleanedWithActions, file = "cleanedDataWithCorrectiveActions.RData")
 save(cleanedWithoutActions, file = "cleanedDataWithoutCorrectiveActions.RData")
 ```
@@ -146,6 +185,7 @@ save(cleanedWithoutActions, file = "cleanedDataWithoutCorrectiveActions.RData")
 library(dplyr)
 library(stringr)
 post_added <- cleanedWithoutActions |> mutate(IS_POST = substring(ERROR_CODE, 1, 1), cleanedDesc = str_replace_all(DESCRIPTION, "\\b\\d{1,2}/\\d{1,2}/\\d{2,4}\\b", ""))
+grouped_post <- post_added |> mutate(groupedDesc = case_when(Category_Desc %in% c("CT Simulation", "Diagnostic CT", "Computer Tx Planning") ~ "Treatment Preparation", Category_Desc %in% c("Scheduling", "Registration", "Patient Docs/Notes") ~ "Administrative", Category_Desc %in% c("Quality Assurance", "Radiation Safety", "Billing") ~ "Standards"))
 ```
 
 ``` {r modelingRForest}
@@ -155,23 +195,28 @@ library(tm)
 
 descrip <- post_added$cleanedDesc
 
-dtm <- TermDocumentMatrix(descrip, control=list(weighting = function(x) weightTfIdf(x, normalize=TRUE), wordLengths = c(2,Inf)))
+dtm <- TermDocumentMatrix(descrip, control=list(weighting = function(x) weightTfIdf(x, normalize=TRUE), wordLengths = c(2,Inf), stopwords=TRUE))
+
+nonsparse_dtm <- removeSparseTerms(dtm, 0.8)
 
 lsaSpace <- lsa(dtm)
 
 lsaFeatures <- as.textmatrix(lsaSpace)
+
+nonSparse_lsa <- lsa(nonsparse_dtm)
+nonsparse_lsaFeatures <- as.textmatrix(nonSparse_lsa)
 ```
-``` {r}
+``` {r svm nongrouped}
 #post_added$ATTRIBUTE_ID
 
 #lsaSpace$dk
-attribute_id <- as.factor(post_added$ATTRIBUTE_ID)
-lsa_df <- data.frame(attribute_id, lsaSpace$dk)
+attribute_id <- as.factor(post_added$Category_Desc)
+lsa_df <- data.frame(attribute_id, lsaSpace$dk[,-1])
 #lsa_df
 
 err <- rep(NA, 500)
 for(i in 1:500) {
-  train_index <- sample(nrow(lsa_df), .7*nrow(lsa_df))
+  train_index <- sample(nrow(lsa_df), .5*nrow(lsa_df))
   data.train = lsa_df[train_index,]
   data.test = lsa_df[-train_index,]
   
@@ -183,11 +228,100 @@ for(i in 1:500) {
 }
 mean(err)
 ```
+
+``` {r svmgrouped}
+groupedDesc <- as.factor(grouped_post$groupedDesc)
+lsa_df <- data.frame(groupedDesc, lsaSpace$dk[,-1])
+
+grouped_svm_err <- rep(NA, 500)
+for(i in 1:500) {
+  train_index <- sample(nrow(lsa_df), .5*nrow(lsa_df))
+  data.train = lsa_df[train_index,]
+  data.test = lsa_df[-train_index,]
+  
+  
+  library(e1071)
+  svm.model = svm(groupedDesc~., data=data.train)
+  svm.pred = predict(svm.model, data.test[,-1])
+  grouped_svm_err[i] <- mean(svm.pred!=data.test$groupedDesc)
+}
+mean(grouped_svm_err)
+table(svm.pred, data.test$groupedDesc)
+```
+
+``` {r nonsparsesvm}
+groupedDesc <- as.factor(grouped_post$groupedDesc)
+lsa_df <- data.frame(groupedDesc, nonSparse_lsa$dk)
+
+grouped_svm_err <- rep(NA, 500)
+for(i in 1:500) {
+  train_index <- sample(nrow(lsa_df), .5*nrow(lsa_df))
+  data.train = lsa_df[train_index,]
+  data.test = lsa_df[-train_index,]
+  
+  
+  library(e1071)
+  svm.model = svm(groupedDesc~., data=data.train)
+  svm.pred = predict(svm.model, data.test[,-1])
+  grouped_svm_err[i] <- mean(svm.pred!=data.test$groupedDesc)
+}
+mean(grouped_svm_err)
+table(svm.pred, data.test$groupedDesc)
+```
+
 ``` {r}
 library(randomForest)
+library(caret)
 
-train_index <- sample(nrow(lsa_df), .7*nrow(lsa_df))
-rf_model = randomForest(attribute_id~., data=lsa_df, train=train_index, mtry=8, importance=TRUE)
-predictions = predict(rf_model, newdata=lsa_df[-train_index,])
-mean(predictions!=lsa_df[-train_index,]$attribute_id)
+groupedDesc <- as.factor(grouped_post$groupedDesc)
+lsa_df <- data.frame(groupedDesc, lsaSpace$dk[,-1])
+
+k=500
+rf_err <- rep(NA, k)
+for (i in 1:k) {
+  train_index <- sample(nrow(lsa_df), .5*nrow(lsa_df))
+  rf_model = randomForest(groupedDesc~., data=lsa_df, subset=-train_index, ntree=2000, mtry=4, importance=TRUE)
+  predictions = predict(rf_model, newdata=lsa_df[train_index,])
+  err[i] <- mean(predictions!=lsa_df[train_index,]$groupedDesc)
+}
+mean(err)
+table(predictions, lsa_df[train_index,]$groupedDesc)
+```
+``` {r}
+scaled_data_train
+```
+
+
+``` {r}
+library(class)
+
+err <- rep(NA, 500)
+for(i in 1:500) {
+  tlsa_df <- data.frame(lsa_df[,-1], as.numeric(lsa_df$groupedDesc))
+  train_index <- sample(nrow(tlsa_df), .5*nrow(tlsa_df))
+  scaled_data_train = tlsa_df[train_index,]
+  scaled_data_test = tlsa_df[-train_index,]
+
+  test_pred <- knn(
+                 train = scaled_data_train, 
+                 test = scaled_data_test,
+                 cl = scaled_data_train$as.numeric.lsa_df.groupedDesc., 
+                 k=10
+                 )
+
+  matrix <- table(scaled_data_test$as.numeric.lsa_df.groupedDesc., test_pred)
+  err[i] <- mean(test_pred!=scaled_data_test$as.numeric.lsa_df.groupedDesc.)
+}
+mean(err)
+matrix
+```
+
+``` {r}
+ggplot(data=post_added, aes(x=Category_Desc)) + geom_bar() + scale_x_discrete(guide = guide_axis(angle = 20))
+
+unique(post_added$IS_POST)
+```
+
+``` {r}
+tlsa_df
 ```
